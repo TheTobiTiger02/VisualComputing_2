@@ -32,7 +32,7 @@ bool Scene::init()
         */
 
         // Initials
-                            // T
+        // T
         float vertices[] = {-0.7, 0.0, 0.0, 0.0, 1.0,
                             -0.7, 0.6, 0.0, 0.0, 1.0,
                             -0.9, 0.6, 0.0, 1.0, 1.0,
@@ -43,7 +43,7 @@ bool Scene::init()
                             -0.3, 0.6, 0.0, 1.0, 1.0,
                             -0.5, 0.6, 0.0, 1.0, 1.0,
                             -0.5, 0.0, 0.0, 1.0, 1.0,
-                            // H
+                // H
                             0.0, 0.0, 0.0, 0.0, 1.0,
                             0.0, 0.7, 0.0, 0.0, 1.0,
                             0.2, 0.7, 0.0, 0.0, 1.0,
@@ -57,6 +57,8 @@ bool Scene::init()
                             0.6, 0.7, 0.0, 0.0, 1.0,
                             0.6, 0.0, 0.0, 0.0, 1.0};
 
+
+        // Clockwise
                         // T
         int indices[] = {0, 1, 8,
                          0, 8, 9,
@@ -73,7 +75,33 @@ bool Scene::init()
                          14, 16, 17,
                          18, 19, 20,
                          18, 20, 21,
-                         };
+        };
+
+
+        // Counter clockwise
+        /*
+        int indices[] = {
+                // T
+                0, 8, 1,
+                0, 9, 8,
+                1, 3, 2,
+                1, 4, 3,
+                5, 8, 7,
+                5, 7, 6,
+                1, 8, 5,
+                1, 5, 4,
+                // H
+                10, 12, 11,
+                10, 13, 12,
+                14, 16, 15,
+                14, 17, 16,
+                18, 20, 19,
+                18, 21, 20,
+        };
+         */
+
+
+
 
 
 
@@ -98,17 +126,11 @@ bool Scene::init()
         glVertexAttribPointer(1, 2, GL_FLOAT, GL_FALSE, 5 * sizeof(float), (void*)(3 * sizeof(float)));
         glEnableVertexAttribArray(1);
 
+        /*glEnable(GL_CULL_FACE);
+        glFrontFace(GL_CCW);
+        glCullFace(GL_BACK);
+        */
 
-
-
-
-
-
-        /*
-         * ************
-         * Place your code here!
-         * ************
-         */
         std::cout << "Scene initialization done\n";
         return true;
     }
