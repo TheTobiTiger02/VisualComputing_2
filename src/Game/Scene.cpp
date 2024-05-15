@@ -101,10 +101,6 @@ bool Scene::init()
          */
 
 
-
-
-
-
         glGenVertexArrays(1, &vaoID);
         glBindVertexArray(vaoID);
 
@@ -113,7 +109,6 @@ bool Scene::init()
         glBindBuffer(GL_ARRAY_BUFFER, vboID);
         glBufferData(GL_ARRAY_BUFFER, sizeof(vertices), vertices, GL_STATIC_DRAW);
 
-        // Create EBO
         GLuint iboID;
         glGenBuffers(1, &iboID);
         glBindBuffer(GL_ELEMENT_ARRAY_BUFFER, iboID);
@@ -143,20 +138,12 @@ bool Scene::init()
 void Scene::render(float dt)
 {
 
-    /*
-    * ************
-    * Place your code here!
-    * ************
-    */
-    // Use the shader program
-    m_shader->use();
-
-    // Render the object
     glBindVertexArray(vaoID);
     glDrawElements(GL_TRIANGLES, 42, GL_UNSIGNED_INT, nullptr);
+    glBindVertexArray(0);
 
 
-    // Render code
+
 
 
 
