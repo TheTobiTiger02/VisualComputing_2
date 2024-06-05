@@ -5,6 +5,9 @@
 #include <memory>
 #include <AssetManager.h>
 #include "Robot.h"
+#include "Cube.h"
+#include "../Framework/SceneElements/Transform.h"
+#include "Cube.h"
 
 class Scene
 {
@@ -30,5 +33,6 @@ private:
     ShaderProgram* m_shader;
     GLuint vaoID, vboID;
     Robot robot;
+    Transform* cubeTransform;
 };
 

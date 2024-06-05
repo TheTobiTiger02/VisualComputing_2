@@ -22,28 +22,7 @@ bool Scene::init()
         m_shader->use();
 
 
-        // Werte vom Würfel
-        static const float vertices[] =  {0.5, -0.5, -0.5, 1, 0, 0,
-                                          0.5, -0.5, 0.5, 0, 1, 0,
-                                          -0.5, -0.5, 0.5, 0, 0, 1,
-                                          -0.5, -0.5, -0.5, 1, 1, 0,
-                                          0.5, 0.5, -0.5, 1, 0, 1,
-                                          0.5, 0.5, 0.5, 0, 1, 1,
-                                          -0.5, 0.5, 0.5, 1, 1, 1,
-                                          -0.5, 0.5, -0.5, 0.5, 1, 0.5};
 
-        static const int indices[] = {1, 2, 3,
-                                      7, 6, 5,
-                                      4, 5, 1,
-                                      5, 6, 2,
-                                      2, 6, 7,
-                                      0, 3, 7,
-                                      0, 1, 3,
-                                      4, 7, 5,
-                                      0, 4, 1,
-                                      1, 5, 2,
-                                      3, 2, 7,
-                                      4, 0, 7};
 
 
 
@@ -51,7 +30,7 @@ bool Scene::init()
         // generate and activate VBO and upload data //
         glGenBuffers(1, &vboID);
         glBindBuffer(GL_ARRAY_BUFFER, vboID);
-        glBufferData(GL_ARRAY_BUFFER, sizeof(vertices), &vertices, GL_STATIC_DRAW);
+        glBufferData(GL_ARRAY_BUFFER, sizeof(cubeVert), &cubeVert, GL_STATIC_DRAW);
 
         //VAO speichert den Zustand der Vertex-Attribute
         // generate and activate VAO //
@@ -68,7 +47,7 @@ bool Scene::init()
         GLuint iboID;
         glGenBuffers(1, &iboID); //only works after glGenVertexArrays();
         glBindBuffer(GL_ELEMENT_ARRAY_BUFFER, iboID);
-        glBufferData(GL_ELEMENT_ARRAY_BUFFER, sizeof(indices), indices, GL_STATIC_DRAW);
+        glBufferData(GL_ELEMENT_ARRAY_BUFFER, sizeof(cubeInd), cubeInd, GL_STATIC_DRAW);
 
 
         // Aufgabe 4
@@ -99,7 +78,7 @@ void Scene::render(float dt)
     glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
     glClearColor(0.0f, 0.0f, 0.0f, 1.0f);
     robot.draw(vaoID, m_shader);
-    robot.animation(dt);
+    robot.animation(dt * 3);
 
 
 }
