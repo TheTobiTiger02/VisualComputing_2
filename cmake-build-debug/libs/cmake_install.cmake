@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/GBT B450M-S2H/Downloads/VC_OpenGL_Praktikum_Framework (1)/OpenGL_Praktikum/libs
+# Install script for directory: C:/Users/STTH137/CLionProjects/VisualComputing/libs
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,15 +34,15 @@ endif()
 
 # Set default install directory permissions.
 if(NOT DEFINED CMAKE_OBJDUMP)
-  set(CMAKE_OBJDUMP "C:/Users/GBT B450M-S2H/AppData/Local/Programs/CLion Nova/bin/mingw/bin/objdump.exe")
+  set(CMAKE_OBJDUMP "C:/Program Files/JetBrains/CLion 2022.3.1/bin/mingw/bin/objdump.exe")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("C:/Users/GBT B450M-S2H/Downloads/VC_OpenGL_Praktikum_Framework (1)/OpenGL_Praktikum/cmake-build-debug/libs/glm-master/cmake_install.cmake")
-  include("C:/Users/GBT B450M-S2H/Downloads/VC_OpenGL_Praktikum_Framework (1)/OpenGL_Praktikum/cmake-build-debug/libs/glfw-3.2.1/cmake_install.cmake")
-  include("C:/Users/GBT B450M-S2H/Downloads/VC_OpenGL_Praktikum_Framework (1)/OpenGL_Praktikum/cmake-build-debug/libs/glew-2.1.0/build/cmake/cmake_install.cmake")
-  include("C:/Users/GBT B450M-S2H/Downloads/VC_OpenGL_Praktikum_Framework (1)/OpenGL_Praktikum/cmake-build-debug/libs/stb/cmake_install.cmake")
+  include("C:/Users/STTH137/CLionProjects/VisualComputing/cmake-build-debug/libs/glm-master/cmake_install.cmake")
+  include("C:/Users/STTH137/CLionProjects/VisualComputing/cmake-build-debug/libs/glfw-3.2.1/cmake_install.cmake")
+  include("C:/Users/STTH137/CLionProjects/VisualComputing/cmake-build-debug/libs/glew-2.1.0/build/cmake/cmake_install.cmake")
+  include("C:/Users/STTH137/CLionProjects/VisualComputing/cmake-build-debug/libs/stb/cmake_install.cmake")
 
 endif()
 

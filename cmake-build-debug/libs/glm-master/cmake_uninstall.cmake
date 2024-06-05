@@ -1,19 +1,19 @@
-if(NOT EXISTS "C:/Users/GBT B450M-S2H/Downloads/VC_OpenGL_Praktikum_Framework (1)/OpenGL_Praktikum/cmake-build-debug/libs/glm-master/install_manifest.txt")
-  message(FATAL_ERROR "Cannot find install manifest: C:/Users/GBT B450M-S2H/Downloads/VC_OpenGL_Praktikum_Framework (1)/OpenGL_Praktikum/cmake-build-debug/libs/glm-master/install_manifest.txt")
-endif(NOT EXISTS "C:/Users/GBT B450M-S2H/Downloads/VC_OpenGL_Praktikum_Framework (1)/OpenGL_Praktikum/cmake-build-debug/libs/glm-master/install_manifest.txt")
+if(NOT EXISTS "C:/Users/STTH137/CLionProjects/VisualComputing_2/cmake-build-debug/libs/glm-master/install_manifest.txt")
+  message(FATAL_ERROR "Cannot find install manifest: C:/Users/STTH137/CLionProjects/VisualComputing_2/cmake-build-debug/libs/glm-master/install_manifest.txt")
+endif(NOT EXISTS "C:/Users/STTH137/CLionProjects/VisualComputing_2/cmake-build-debug/libs/glm-master/install_manifest.txt")
 
 if (NOT DEFINED CMAKE_INSTALL_PREFIX)
   set (CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/OpenGL_Praktikum")
 endif ()
  message(${CMAKE_INSTALL_PREFIX})
 
-file(READ "C:/Users/GBT B450M-S2H/Downloads/VC_OpenGL_Praktikum_Framework (1)/OpenGL_Praktikum/cmake-build-debug/libs/glm-master/install_manifest.txt" files)
+file(READ "C:/Users/STTH137/CLionProjects/VisualComputing_2/cmake-build-debug/libs/glm-master/install_manifest.txt" files)
 string(REGEX REPLACE "\n" ";" files "${files}")
 foreach(file ${files})
   message(STATUS "Uninstalling $ENV{DESTDIR}${file}")
   if(IS_SYMLINK "$ENV{DESTDIR}${file}" OR EXISTS "$ENV{DESTDIR}${file}")
     exec_program(
-      "C:/Users/GBT B450M-S2H/AppData/Local/Programs/CLion Nova/bin/cmake/win/x64/bin/cmake.exe" ARGS "-E remove \"$ENV{DESTDIR}${file}\""
+      "C:/Program Files/JetBrains/CLion 2022.3.1/bin/cmake/win/x64/bin/cmake.exe" ARGS "-E remove \"$ENV{DESTDIR}${file}\""
       OUTPUT_VARIABLE rm_out
       RETURN_VALUE rm_retval
       )

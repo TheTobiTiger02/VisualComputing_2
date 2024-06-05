@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/GBT B450M-S2H/Downloads/VC_OpenGL_Praktikum_Framework (1)/OpenGL_Praktikum/libs/glm-master/test/bug
+# Install script for directory: C:/Users/STTH137/CLionProjects/VisualComputing/libs/glm-master/test/bug
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,6 +34,6 @@ endif()
 
 # Set default install directory permissions.
 if(NOT DEFINED CMAKE_OBJDUMP)
-  set(CMAKE_OBJDUMP "C:/Users/GBT B450M-S2H/AppData/Local/Programs/CLion Nova/bin/mingw/bin/objdump.exe")
+  set(CMAKE_OBJDUMP "C:/Program Files/JetBrains/CLion 2022.3.1/bin/mingw/bin/objdump.exe")
 endif()
 
