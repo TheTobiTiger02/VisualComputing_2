@@ -5,7 +5,6 @@
 #include <memory>
 #include <AssetManager.h>
 #include "Robot.h"
-#include "Cube.h"
 
 class Scene
 {
@@ -31,11 +30,5 @@ private:
     ShaderProgram* m_shader;
     GLuint vaoID, vboID;
     Robot robot;
-    float animationTime = 0.0f;
-    glm::vec3 cameraPos;
-    glm::vec3 target;
-    glm::vec3 up;
-    glm::mat4 viewMatrix, projectionMatrix;
-    std::unordered_map<Key, bool> keyStatus;
 };
 

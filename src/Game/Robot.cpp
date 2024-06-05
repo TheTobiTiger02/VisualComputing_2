@@ -2,35 +2,35 @@
 
 void Robot::initRobot()
 {
-    head.setScale(glm::vec3(0.2, 0.2, 0.2));
+    head.setScale(glm::vec3(0.4, 0.4, 0.3));
     head.setPosition(glm::vec3(0, 0.75, 0));
 
-    body.setScale(glm::vec3(0.5, 0.75, 0.4));
+    body.setScale(glm::vec3(0.4, 0.6, 0.2));
     body.setPosition(glm::vec3(0, 0.2, 0));
 
-    leftUpperArm.setScale(glm::vec3(0.1, 0.3, 0.1));
-    leftUpperArm.setPosition(glm::vec3(-0.4, 0.4, 0));
-    leftUnderArm.setScale(glm::vec3(0.1, 0.3, 0.1));
-    leftUnderArm.setPosition(glm::vec3(-0.4, 0.05, 0));
+    leftUpperArm.setScale(glm::vec3(0.1, 0.2, 0.1));
+    leftUpperArm.setPosition(glm::vec3(-0.4, 0.3, 0));
+    leftUnderArm.setScale(glm::vec3(0.1, 0.2, 0.1));
+    leftUnderArm.setPosition(glm::vec3(-0.4, 0.0, 0));
 
-    rightUpperArm.setScale(glm::vec3(0.1, 0.3, 0.1));
-    rightUpperArm.setPosition(glm::vec3(0.4, 0.4, 0));
-    rightUnderArm.setScale(glm::vec3(0.1, 0.3, 0.1));
-    rightUnderArm.setPosition(glm::vec3(0.4, 0.05, 0));
+    rightUpperArm.setScale(glm::vec3(0.1, 0.2, 0.1));
+    rightUpperArm.setPosition(glm::vec3(0.4, 0.3, 0));
+    rightUnderArm.setScale(glm::vec3(0.1, 0.2, 0.1));
+    rightUnderArm.setPosition(glm::vec3(0.4, 0.0, 0));
 
-    leftLeg.setScale(glm::vec3(0.1, 0.5, 0.1));
-    leftLeg.setPosition(glm::vec3(-0.1, -0.5, 0));
+    leftLeg.setScale(glm::vec3(0.1, 0.4, 0.1));
+    leftLeg.setPosition(glm::vec3(-0.1, -0.4, 0));
 
-    rightLeg.setScale(glm::vec3(0.1, 0.5, 0.1));
-    rightLeg.setPosition(glm::vec3(0.1, -0.5, 0));
+    rightLeg.setScale(glm::vec3(0.1, 0.4, 0.1));
+    rightLeg.setPosition(glm::vec3(0.1, -0.4, 0));
 }
 
 void Robot::draw(GLuint VAOID, ShaderProgram* shader)
 {
     glBindVertexArray(VAOID);
-    shader->use();  // aktiviert Shaderprogramm
-    glm::mat4 transformHead = root.getMatrix() * head.getMatrix(); // transformations-Matrix berechnen
-    shader->setUniform("model", transformHead, false); // Model im Raum platzieren
+    shader->use();
+    glm::mat4 transformHead = root.getMatrix() * head.getMatrix();
+    shader->setUniform("model", transformHead, false);
     glDrawElements(GL_TRIANGLES, 36, GL_UNSIGNED_INT, 0);
 
     glm::mat4 transformBody = root.getMatrix() * body.getMatrix();
@@ -66,41 +66,40 @@ void Robot::draw(GLuint VAOID, ShaderProgram* shader)
 
 void Robot::rotate(float angle)
 {
-    glm::vec3 axis = glm::vec3(0.0 , 1.0 , 0.0); // Achse definieren für die rotation
-    glm::quat rotate = glm::angleAxis(glm::radians(angle), axis); // Quaternionenrotation um die angeg. Achse um angle -> radians konvertiert Winkel in Bogenmaß um
-    root.setRotation(root.getRotation() * rotate); // Roboter wird um die angegebene Achse & den berechneten Winkel (rotate) rotiert
-    root.translate(glm::vec3(0.0f, 0.0f, -6.0f));
+    glm::vec3 axis = glm::vec3(0.0 , 1.0 , 0.0);
+    glm::quat rotate = glm::angleAxis(glm::radians(angle), axis);
+    root.setRotation(root.getRotation() * rotate);
 }
 
 void Robot::animation(float time)
 {
-    calculateTime += 0.01f; // Variable im laufe der Zeit zu steuern
-    float angle = cos(calculateTime) * 45.0f; // Winkel berechnen um den bewegt werden soll
+    calculateTime += time;
+    float angle = cos(calculateTime) * 45.0f;
 
-    swingLeg(-glm::radians(angle / 2), true); // zuerst linkes Bein nach hinten schwingen
-    swingLeg(glm::radians(angle / 2), false); // dann rechtes Bein nach vorne
-    swingArm(glm::radians(angle), true); // linkes Bein nach vorne
-    swingArm(-glm::radians(angle), false); // rechtes Bein nach hinten
+    swingLeg(-glm::radians(angle / 2), true);
+    swingLeg(glm::radians(angle / 2), false);
+    swingArm(glm::radians(angle), true);
+    swingArm(-glm::radians(angle), false);
 }
 
 void Robot::swingLeg(float angle, bool isLeft) {
-    Transform& leg = isLeft ? leftLeg : rightLeg; // referenz auf das Bein was transformiert werden soll -> isLeft true = linkes Bein sonst rechtes
-    glm::vec3 hipPos = body.getPosition() + glm::vec3(isLeft ? -0.1f : 0.1f, -0.5f, 0); // Position der Hüfte berechnen basierend auf rechtes oder linkes Bein
-    glm::quat rotation = glm::angleAxis(glm::radians(angle), glm::vec3(1, 0, 0)); // Quarternion-Rotation um die x-Achse
+    Transform &leg = isLeft ? leftLeg : rightLeg;
+    glm::vec3 hipPos = body.getPosition() + glm::vec3(isLeft ? -0.1f : 0.1f, -0.5f, 0);
+    glm::quat rotation = glm::angleAxis(glm::radians(angle), glm::vec3(1, 0, 0));
 
-    leg.rotateAroundPoint(hipPos, rotation); // Bein wird rotiert
+    leg.rotateAroundPoint(hipPos, rotation);
 }
 
 void Robot::swingArm(float angle, bool isLeft) {
-    Transform& upperArm = isLeft ? leftUpperArm : rightUpperArm; // bestimmen ob rechter oder linker Arm
+    Transform& upperArm = isLeft ? leftUpperArm : rightUpperArm;
     Transform& underArm = isLeft ? leftUnderArm : rightUnderArm;
 
-    glm::vec3 shoulderPos = body.getPosition() + glm::vec3(isLeft ? -0.4f : 0.4f, 0.4f, 0); // Schulter-Position berechnen
-    glm::quat rotationUpper = glm::angleAxis(glm::radians(angle), glm::vec3(1, 0, 0)); // Rotation um die x-Achse
+    glm::vec3 shoulderPos = body.getPosition() + glm::vec3(isLeft ? -0.4f : 0.4f, 0.4f, 0);
+    glm::quat rotationUpper = glm::angleAxis(glm::radians(angle), glm::vec3(1, 0, 0));
     upperArm.rotateAroundPoint(shoulderPos, rotationUpper);
     underArm.rotateAroundPoint(shoulderPos, rotationUpper);
 
-    glm::vec3 elbowPos = upperArm.getPosition() + glm::vec3(0, -0.3, 0); // Ellenbogen-Position berechnen
-    glm::quat rotationLower = glm::angleAxis(glm::radians(angle / 2), glm::vec3(1, 0, 0)); // Rotation um die x-Achse
+    glm::vec3 elbowPos = upperArm.getPosition() + glm::vec3(0, -0.3, 0);
+    glm::quat rotationLower = glm::angleAxis(glm::radians(angle / 2), glm::vec3(1, 0, 0));
     underArm.rotateAroundPoint(elbowPos, rotationLower);
 }
