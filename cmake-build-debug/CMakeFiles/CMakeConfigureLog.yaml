@@ -609,3 +609,38 @@ events:
         mingw32-make[1]: Leaving directory 'C:/Users/STTH137/CLionProjects/VisualComputing_2/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-ye4i8i'
         
       exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/JetBrains/CLion 2022.3.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Program Files/JetBrains/CLion 2022.3.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Program Files/JetBrains/CLion 2022.3.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CheckCCompilerFlag.cmake:51 (cmake_check_compiler_flag)"
+      - "libs/glfw-3.2.1/CMakeLists.txt:126 (check_c_compiler_flag)"
+    checks:
+      - "Performing Test _GLFW_HAS_64ASLR"
+    directories:
+      source: "C:/Users/STTH137/CLionProjects/VisualComputing_2/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-5bsfjj"
+      binary: "C:/Users/STTH137/CLionProjects/VisualComputing_2/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-5bsfjj"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/STTH137/CLionProjects/VisualComputing_2/libs/glfw-3.2.1/CMake/modules"
+    buildResult:
+      variable: "_GLFW_HAS_64ASLR"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/STTH137/CLionProjects/VisualComputing_2/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-5bsfjj'
+        
+        Run Build Command(s): "C:/Program Files/JetBrains/CLion 2022.3.1/bin/cmake/win/x64/bin/cmake.exe" -E env VERBOSE=1 C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f Makefile cmTC_43f34/fast
+        C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_43f34.dir\\build.make CMakeFiles/cmTC_43f34.dir/build
+        mingw32-make[1]: Entering directory 'C:/Users/STTH137/CLionProjects/VisualComputing_2/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-5bsfjj'
+        Building C object CMakeFiles/cmTC_43f34.dir/src.c.obj
+        C:\\PROGRA~1\\JETBRA~1\\CLION2~1.1\\bin\\mingw\\bin\\gcc.exe -D_GLFW_HAS_64ASLR  -Wl,--high-entropy-va -fdiagnostics-color=always -o CMakeFiles\\cmTC_43f34.dir\\src.c.obj -c C:\\Users\\STTH137\\CLionProjects\\VisualComputing_2\\cmake-build-debug\\CMakeFiles\\CMakeScratch\\TryCompile-5bsfjj\\src.c
+        Linking C executable cmTC_43f34.exe
+        "C:\\Program Files\\JetBrains\\CLion 2022.3.1\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_43f34.dir\\link.txt --verbose=1
+        "C:\\Program Files\\JetBrains\\CLion 2022.3.1\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_43f34.dir/objects.a
+        C:\\PROGRA~1\\JETBRA~1\\CLION2~1.1\\bin\\mingw\\bin\\ar.exe qc CMakeFiles\\cmTC_43f34.dir/objects.a @CMakeFiles\\cmTC_43f34.dir\\objects1.rsp
+        C:\\PROGRA~1\\JETBRA~1\\CLION2~1.1\\bin\\mingw\\bin\\gcc.exe  -Wl,--high-entropy-va -Wl,--whole-archive CMakeFiles\\cmTC_43f34.dir/objects.a -Wl,--no-whole-archive -o cmTC_43f34.exe -Wl,--out-implib,libcmTC_43f34.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\\cmTC_43f34.dir\\linkLibs.rsp
+        mingw32-make[1]: Leaving directory 'C:/Users/STTH137/CLionProjects/VisualComputing_2/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-5bsfjj'
+        
+      exitCode: 0
+...

@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/STTH137/CLionProjects/VisualComputing/libs/glfw-3.2.1/src
+# Install script for directory: C:/Users/STTH137/CLionProjects/VisualComputing_2/libs/glfw-3.2.1/src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/STTH137/CLionProjects/VisualComputing/libs/stb
+# Install script for directory: C:/Users/STTH137/CLionProjects/VisualComputing_2/libs/stb
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

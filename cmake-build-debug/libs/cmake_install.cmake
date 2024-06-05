@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/STTH137/CLionProjects/VisualComputing/libs
+# Install script for directory: C:/Users/STTH137/CLionProjects/VisualComputing_2/libs
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,10 +39,10 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("C:/Users/STTH137/CLionProjects/VisualComputing/cmake-build-debug/libs/glm-master/cmake_install.cmake")
-  include("C:/Users/STTH137/CLionProjects/VisualComputing/cmake-build-debug/libs/glfw-3.2.1/cmake_install.cmake")
-  include("C:/Users/STTH137/CLionProjects/VisualComputing/cmake-build-debug/libs/glew-2.1.0/build/cmake/cmake_install.cmake")
-  include("C:/Users/STTH137/CLionProjects/VisualComputing/cmake-build-debug/libs/stb/cmake_install.cmake")
+  include("C:/Users/STTH137/CLionProjects/VisualComputing_2/cmake-build-debug/libs/glm-master/cmake_install.cmake")
+  include("C:/Users/STTH137/CLionProjects/VisualComputing_2/cmake-build-debug/libs/glfw-3.2.1/cmake_install.cmake")
+  include("C:/Users/STTH137/CLionProjects/VisualComputing_2/cmake-build-debug/libs/glew-2.1.0/build/cmake/cmake_install.cmake")
+  include("C:/Users/STTH137/CLionProjects/VisualComputing_2/cmake-build-debug/libs/stb/cmake_install.cmake")
 
 endif()
 

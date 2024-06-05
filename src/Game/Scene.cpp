@@ -1,10 +1,20 @@
 #include "Scene.h"
 #include <AssetManager.h>
+#include "glm/gtx/euler_angles.hpp"
+#include "glm/gtc/matrix_transform.hpp"  // Für glm::lookAt und glm::perspective
+#include "glm/gtx/string_cast.hpp"
 
 Scene::Scene(OpenGLWindow * window) :
-        m_window(window)
+        m_window(window),
+        cameraPos(0.0f, 0.0f, 0.0f), // Punkt an welcher sich die Kamera befindet
+        target(0.0f, 0.0f, -1.0f), // Punkt auf was die Kamera schaut
+        up(0.0f, 1.0f, 0.0f) // definiert die "oben" Richtung der Kamera (normalerweise 0,1,0)
 {
     assert(window != nullptr);
+    keyStatus[Key::W] = false;
+    keyStatus[Key::S] = false;
+    keyStatus[Key::A] = false;
+    keyStatus[Key::D] = false;
 }
 
 Scene::~Scene()
@@ -14,117 +24,68 @@ bool Scene::init()
 {
     try
     {
-        //Load shader
+        // Load shader
         m_assets.addShaderProgram("shader", AssetManager::createShaderProgram("assets/shaders/vertex.glsl", "assets/shaders/fragment.glsl"));
         m_shader = m_assets.getShaderProgram("shader");
         m_shader->use();
 
-        // House
-        /*float vertices[] = {-0.5, -0.5, 0.0, 0.0, 1.0,
-                            0.5, -0.5, 0.0, 0.0, 1.0,
-                            0.5, 0.5, 0.0, 1.0, 0.0,
-                            0.0, 1.0, 1.0, 0.0, 0.0,
-                            -0.5, 0.5, 0.0, 1.0, 0.0};
-
-        int indices[] = {0, 1, 2,
-                         0, 2, 4,
-                         4, 2, 3};
-        */
-
-        // Initials
-        // T
-        float vertices[] = {-0.7, 0.0, 0.0, 0.0, 1.0,
-                            -0.7, 0.6, 0.0, 0.0, 1.0,
-                            -0.9, 0.6, 0.0, 1.0, 1.0,
-                            -0.9, 0.7, 0.0, 0.0, 1.0,
-                            -0.7, 0.7, 0.0, 0.0, 1.0,
-                            -0.5, 0.7, 0.0, 0.0, 1.0,
-                            -0.3, 0.7, 0.0, 1.0, 1.0,
-                            -0.3, 0.6, 0.0, 1.0, 1.0,
-                            -0.5, 0.6, 0.0, 1.0, 1.0,
-                            -0.5, 0.0, 0.0, 1.0, 1.0,
-                // H
-                            0.0, 0.0, 0.0, 0.0, 1.0,
-                            0.0, 0.7, 0.0, 0.0, 1.0,
-                            0.2, 0.7, 0.0, 0.0, 1.0,
-                            0.2, 0.0, 0.0, 0.0, 1.0,
-                            0.2, 0.25, 0.0, 0.0, 1.0,
-                            0.2, 0.45, 0.0, 0.0, 1.0,
-                            0.4, 0.45, 0.0, 0.0, 1.0,
-                            0.4, 0.25, 0.0, 0.0, 1.0,
-                            0.4, 0.0, 0.0, 0.0, 1.0,
-                            0.4, 0.7, 0.0, 0.0, 1.0,
-                            0.6, 0.7, 0.0, 0.0, 1.0,
-                            0.6, 0.0, 0.0, 0.0, 1.0};
+        // Würfel-Daten
 
 
-        // Clockwise
-                        // T
-        int indices[] = {0, 1, 8,
-                         0, 8, 9,
-                         1, 2, 3,
-                         1, 3, 4,
-                         5, 7, 8,
-                         5, 6, 7,
-                         1, 5, 8,
-                         1, 4, 5,
-                         // H
-                         10, 11, 12,
-                         10, 12, 13,
-                         14, 15, 16,
-                         14, 16, 17,
-                         18, 19, 20,
-                         18, 20, 21,
-        };
+        // Generate and activate VBO and upload data
+        glGenBuffers(1, &vboID);
+        glBindBuffer(GL_ARRAY_BUFFER, vboID);
+        glBufferData(GL_ARRAY_BUFFER, sizeof(cubeVert), cubeVert, GL_STATIC_DRAW);
 
-
-        // Counter clockwise
-        /*
-        int indices[] = {
-                // T
-                0, 8, 1,
-                0, 9, 8,
-                1, 3, 2,
-                1, 4, 3,
-                5, 8, 7,
-                5, 7, 6,
-                1, 8, 5,
-                1, 5, 4,
-                // H
-                10, 12, 11,
-                10, 13, 12,
-                14, 16, 15,
-                14, 17, 16,
-                18, 20, 19,
-                18, 21, 20,
-        };
-         */
-
-
+        // Generate and activate VAO
         glGenVertexArrays(1, &vaoID);
         glBindVertexArray(vaoID);
 
-        // Create VBO
-        glGenBuffers(1, &vboID);
-        glBindBuffer(GL_ARRAY_BUFFER, vboID);
-        glBufferData(GL_ARRAY_BUFFER, sizeof(vertices), vertices, GL_STATIC_DRAW);
+        // Describe VBO in the VAO
+        glVertexAttribPointer(0, 3, GL_FLOAT, false, 24, 0);
+        glEnableVertexAttribArray(0);
+        glVertexAttribPointer(1, 3, GL_FLOAT, false, 24, (void*)12);
+        glEnableVertexAttribArray(1);
 
+        // Generate and activate IBO
         GLuint iboID;
         glGenBuffers(1, &iboID);
         glBindBuffer(GL_ELEMENT_ARRAY_BUFFER, iboID);
-        glBufferData(GL_ELEMENT_ARRAY_BUFFER, sizeof(indices), indices, GL_STATIC_DRAW);
+        glBufferData(GL_ELEMENT_ARRAY_BUFFER, sizeof(cubeInd), cubeInd, GL_STATIC_DRAW);
 
-        // Set up vertex attribute pointers
-        glVertexAttribPointer(0, 3, GL_FLOAT, GL_FALSE, 5 * sizeof(float), (void*)0);
-        glEnableVertexAttribArray(0);
-
-        glVertexAttribPointer(1, 2, GL_FLOAT, GL_FALSE, 5 * sizeof(float), (void*)(3 * sizeof(float)));
-        glEnableVertexAttribArray(1);
-
-        /*glEnable(GL_CULL_FACE);
+        // Enable culling
+        glEnable(GL_CULL_FACE);
         glFrontFace(GL_CCW);
         glCullFace(GL_BACK);
-        */
+
+        // Initialize robot
+        robot.initRobot();
+        robot.rotate(-40.0f);
+
+
+        // ViewMatrix definition
+        viewMatrix = glm::lookAt(cameraPos, target, up);
+
+        // ProjectionMatrix definition
+        // Projektionsmatrix transformiert 3D Koordinaten in 2D auf dem Bildschirm
+        // sorgt dafür, dass Obejkte die weiter entfernt sind von der Kamera kleiner erscheinen
+        // und Objekte die näher sind größer
+        float fov = glm::radians(45.0f); // vertikaler Öffnungswinkler der Kamera
+        std::cout << m_window->getWindowWidth() + m_window->getWindowHeight() << std::endl;
+        float aspectRatio = static_cast<float>(m_window->getWindowWidth()) / static_cast<float>(m_window->getWindowHeight()); // Breite zu höhe Verhältnis
+        float nearPlane = 0.5f; // minimale Entfernung zur Kamera ab welcher Objekte sichbar werden
+        float farPlane = 100.0f; // maximale Entfernung zur Kamera bis zu  welcher Objekte sichtbar sind
+        projectionMatrix = glm::perspective(fov, aspectRatio, nearPlane, farPlane);
+
+        // Pass matrices to the shader
+        m_shader->setUniform("view", viewMatrix, false);
+        m_shader->setUniform("projection", projectionMatrix, false);
+
+        // Enable depth test
+        glEnable(GL_DEPTH_TEST);
+        glDepthFunc(GL_LESS);
+        glClearDepth(1.0);
+
 
         std::cout << "Scene initialization done\n";
         return true;
@@ -137,24 +98,46 @@ bool Scene::init()
 
 void Scene::render(float dt)
 {
-
-    glBindVertexArray(vaoID);
-    glDrawElements(GL_TRIANGLES, 42, GL_UNSIGNED_INT, nullptr);
-    glBindVertexArray(0);
-
-
-
-
-
-
-
+    glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
+    glClearColor(0.0f, 0.0f, 0.0f, 1.0f);
+    animationTime += dt;
+    m_shader->setUniform("animationTime", animationTime);
+    robot.draw(vaoID, m_shader);
+    robot.animation(dt);
 
 }
 
 void Scene::update(float dt)
 {
+    float cameraSpeed = 0.05f;
+    bool updated = false;
 
+
+    if (m_window->getInput().getKeyState(Key::W) == KeyState::Pressed) {
+        cameraPos += glm::vec3(0.0f, cameraSpeed, 0.0f);
+        updated = true;
+    }
+    if (m_window->getInput().getKeyState(Key::S) == KeyState::Pressed) {
+        cameraPos += glm::vec3(0.0f, -cameraSpeed, 0.0f);
+        updated = true;
+    }
+    if (m_window->getInput().getKeyState(Key::A) == KeyState::Pressed) {
+        cameraPos += glm::vec3(-cameraSpeed, 0.0f, 0.0f);
+        updated = true;
+    }
+    if (m_window->getInput().getKeyState(Key::D) == KeyState::Pressed) {
+        cameraPos += glm::vec3(cameraSpeed, 0.0f, 0.0f);
+        updated = true;
+    }
+
+    if (updated) {
+        viewMatrix = glm::lookAt(cameraPos, target, up);
+        m_shader->use();
+        m_shader->setUniform("view", viewMatrix, false);
+    }
 }
+
+
 
 OpenGLWindow * Scene::getWindow()
 {
@@ -163,7 +146,11 @@ OpenGLWindow * Scene::getWindow()
 
 void Scene::onKey(Key key, Action action, Modifier modifier)
 {
-
+    if (action == Action::Down) {
+        keyStatus[key] = true;
+    } else if (action == Action::Up) {
+        keyStatus[key] = false;
+    }
 }
 
 void Scene::onMouseMove(MousePosition mouseposition)
@@ -185,6 +172,7 @@ void Scene::onFrameBufferResize(int width, int height)
 {
 
 }
+
 void Scene::shutdown()
 {
 

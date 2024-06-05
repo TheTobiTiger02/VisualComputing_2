@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/STTH137/CLionProjects/VisualComputing/libs/glm-master/test/ext
+# Install script for directory: C:/Users/STTH137/CLionProjects/VisualComputing_2/libs/glm-master/test/ext
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
