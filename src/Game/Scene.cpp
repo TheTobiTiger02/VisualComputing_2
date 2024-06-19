@@ -61,7 +61,7 @@ bool Scene::init()
         glClearDepth(0.0);
 
         robot.initRobot();
-        robot.rotate(-40.0f);
+        robot.rotate(-45.0f);
 
         std::cout << "Scene initialization done\n";
         return true;

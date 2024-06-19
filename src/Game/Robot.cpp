@@ -2,8 +2,8 @@
 
 void Robot::initRobot()
 {
-    head.setScale(glm::vec3(0.4, 0.4, 0.3));
-    head.setPosition(glm::vec3(0, 0.75, 0));
+    head.setScale(glm::vec3(0.2, 0.2, 0.15));
+    head.setPosition(glm::vec3(0, 0.65, 0));
 
     body.setScale(glm::vec3(0.6, 0.6, 0.2));
     body.setPosition(glm::vec3(0, 0.2, 0));
@@ -84,7 +84,7 @@ void Robot::animation(float time)
 
 void Robot::swingLeg(float angle, bool isLeft) {
     Transform &leg = isLeft ? leftLeg : rightLeg;
-    glm::vec3 hipPos = body.getPosition() + glm::vec3(isLeft ? -0.1f : 0.1f, -0.5f, 0);
+    glm::vec3 hipPos = body.getPosition() + glm::vec3(isLeft ? -0.1f : 0.1f, -0.4f, 0);
     glm::quat rotation = glm::angleAxis(glm::radians(angle / 2), glm::vec3(1, 0, 0));
 
     leg.rotateAroundPoint(hipPos, rotation);
@@ -100,6 +100,8 @@ void Robot::swingArm(float angle, bool isLeft) {
     underArm.rotateAroundPoint(shoulderPos, rotationUpper);
 
     glm::vec3 elbowPos = upperArm.getPosition() + glm::vec3(0, -0.3, 0);
-    glm::quat rotationLower = glm::angleAxis(glm::radians(angle / 2), glm::vec3(1, 0, 0)); // Change this line
+    glm::quat rotationLower = glm::angleAxis(glm::radians(angle / 2), glm::vec3(1, 0, 0));
     underArm.rotateAroundPoint(elbowPos, rotationLower);
+
+
 }

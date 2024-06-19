@@ -1,0 +1,2 @@
+C:\Users\TOBIAS~1\AppData\Local\Programs\CLion\bin\mingw\bin\ar.exe qc ..\..\..\..\lib\libglew32d.a CMakeFiles/glew_s.dir/__/__/src/glew.c.obj CMakeFiles/glew_s.dir/__/glew.rc.obj
+C:\Users\TOBIAS~1\AppData\Local\Programs\CLion\bin\mingw\bin\ranlib.exe ..\..\..\..\lib\libglew32d.a

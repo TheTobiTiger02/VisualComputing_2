@@ -4,20 +4,20 @@ events:
   -
     kind: "message-v1"
     backtrace:
-      - "C:/Users/GBT B450M-S2H/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeDetermineSystem.cmake:233 (message)"
+      - "C:/Users/Tobias Heyn/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeDetermineSystem.cmake:233 (message)"
       - "CMakeLists.txt:421 (project)"
     message: |
       The system is: Windows - 10.0.22631 - AMD64
   -
     kind: "message-v1"
     backtrace:
-      - "C:/Users/GBT B450M-S2H/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
-      - "C:/Users/GBT B450M-S2H/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
-      - "C:/Users/GBT B450M-S2H/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "C:/Users/Tobias Heyn/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Users/Tobias Heyn/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Users/Tobias Heyn/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
       - "CMakeLists.txt:421 (project)"
     message: |
       Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
-      Compiler: C:/Users/GBT B450M-S2H/AppData/Local/Programs/CLion/bin/mingw/bin/gcc.exe 
+      Compiler: C:/Users/Tobias Heyn/AppData/Local/Programs/CLion/bin/mingw/bin/gcc.exe 
       Build flags: 
       Id flags:  
       
@@ -28,18 +28,18 @@ events:
       Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.exe"
       
       The C compiler identification is GNU, found in:
-        C:/Users/GBT B450M-S2H/CLionProjects/VisualComputing_2/cmake-build-debug/CMakeFiles/3.28.1/CompilerIdC/a.exe
+        C:/Users/Tobias Heyn/CLionProjects/VisualComputing_2/cmake-build-debug/CMakeFiles/3.28.1/CompilerIdC/a.exe
       
   -
     kind: "message-v1"
     backtrace:
-      - "C:/Users/GBT B450M-S2H/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
-      - "C:/Users/GBT B450M-S2H/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
-      - "C:/Users/GBT B450M-S2H/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "C:/Users/Tobias Heyn/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Users/Tobias Heyn/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Users/Tobias Heyn/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
       - "CMakeLists.txt:421 (project)"
     message: |
       Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
-      Compiler: C:/Users/GBT B450M-S2H/AppData/Local/Programs/CLion/bin/mingw/bin/g++.exe 
+      Compiler: C:/Users/Tobias Heyn/AppData/Local/Programs/CLion/bin/mingw/bin/g++.exe 
       Build flags: 
       Id flags:  
       
@@ -50,186 +50,186 @@ events:
       Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.exe"
       
       The CXX compiler identification is GNU, found in:
-        C:/Users/GBT B450M-S2H/CLionProjects/VisualComputing_2/cmake-build-debug/CMakeFiles/3.28.1/CompilerIdCXX/a.exe
+        C:/Users/Tobias Heyn/CLionProjects/VisualComputing_2/cmake-build-debug/CMakeFiles/3.28.1/CompilerIdCXX/a.exe
       
   -
     kind: "try_compile-v1"
     backtrace:
-      - "C:/Users/GBT B450M-S2H/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
-      - "C:/Users/GBT B450M-S2H/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "C:/Users/Tobias Heyn/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "C:/Users/Tobias Heyn/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
       - "CMakeLists.txt:421 (project)"
     checks:
       - "Detecting C compiler ABI info"
     directories:
-      source: "C:/Users/GBT B450M-S2H/CLionProjects/VisualComputing_2/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-io53u8"
-      binary: "C:/Users/GBT B450M-S2H/CLionProjects/VisualComputing_2/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-io53u8"
+      source: "C:/Users/Tobias Heyn/CLionProjects/VisualComputing_2/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-frkbj6"
+      binary: "C:/Users/Tobias Heyn/CLionProjects/VisualComputing_2/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-frkbj6"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
     buildResult:
       variable: "CMAKE_C_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/GBT B450M-S2H/CLionProjects/VisualComputing_2/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-io53u8'
+        Change Dir: 'C:/Users/Tobias Heyn/CLionProjects/VisualComputing_2/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-frkbj6'
         
-        Run Build Command(s): "C:/Users/GBT B450M-S2H/AppData/Local/Programs/CLion/bin/cmake/win/x64/bin/cmake.exe" -E env VERBOSE=1 C:/Users/GBTB45~1/AppData/Local/Programs/CLion/bin/mingw/bin/mingw32-make.exe -f Makefile cmTC_b5ea9/fast
-        C:/Users/GBTB45~1/AppData/Local/Programs/CLion/bin/mingw/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_b5ea9.dir\\build.make CMakeFiles/cmTC_b5ea9.dir/build
-        mingw32-make[1]: Entering directory 'C:/Users/GBT B450M-S2H/CLionProjects/VisualComputing_2/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-io53u8'
-        Building C object CMakeFiles/cmTC_b5ea9.dir/CMakeCCompilerABI.c.obj
-        C:\\Users\\GBTB45~1\\AppData\\Local\\Programs\\CLion\\bin\\mingw\\bin\\gcc.exe   -fdiagnostics-color=always   -v -o CMakeFiles\\cmTC_b5ea9.dir\\CMakeCCompilerABI.c.obj -c "C:\\Users\\GBT B450M-S2H\\AppData\\Local\\Programs\\CLion\\bin\\cmake\\win\\x64\\share\\cmake-3.28\\Modules\\CMakeCCompilerABI.c"
+        Run Build Command(s): "C:/Users/Tobias Heyn/AppData/Local/Programs/CLion/bin/cmake/win/x64/bin/cmake.exe" -E env VERBOSE=1 C:/Users/TOBIAS~1/AppData/Local/Programs/CLion/bin/mingw/bin/mingw32-make.exe -f Makefile cmTC_440a0/fast
+        C:/Users/TOBIAS~1/AppData/Local/Programs/CLion/bin/mingw/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_440a0.dir\\build.make CMakeFiles/cmTC_440a0.dir/build
+        mingw32-make[1]: Entering directory 'C:/Users/Tobias Heyn/CLionProjects/VisualComputing_2/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-frkbj6'
+        Building C object CMakeFiles/cmTC_440a0.dir/CMakeCCompilerABI.c.obj
+        C:\\Users\\TOBIAS~1\\AppData\\Local\\Programs\\CLion\\bin\\mingw\\bin\\gcc.exe   -fdiagnostics-color=always   -v -o CMakeFiles\\cmTC_440a0.dir\\CMakeCCompilerABI.c.obj -c "C:\\Users\\Tobias Heyn\\AppData\\Local\\Programs\\CLion\\bin\\cmake\\win\\x64\\share\\cmake-3.28\\Modules\\CMakeCCompilerABI.c"
         Using built-in specs.
-        COLLECT_GCC=C:\\Users\\GBTB45~1\\AppData\\Local\\Programs\\CLion\\bin\\mingw\\bin\\gcc.exe
+        COLLECT_GCC=C:\\Users\\TOBIAS~1\\AppData\\Local\\Programs\\CLion\\bin\\mingw\\bin\\gcc.exe
         Target: x86_64-w64-mingw32
         Configured with: ../gcc-13.1.0/configure --host=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --build=x86_64-alpine-linux-musl --prefix=/win --enable-checking=release --enable-fully-dynamic-string --enable-languages=c,c++ --with-arch=nocona --with-tune=generic --enable-libatomic --enable-libgomp --enable-libstdcxx-filesystem-ts --enable-libstdcxx-time --enable-seh-exceptions --enable-shared --enable-static --enable-threads=posix --enable-version-specific-runtime-libs --disable-bootstrap --disable-graphite --disable-libada --disable-libstdcxx-pch --disable-libstdcxx-debug --disable-libquadmath --disable-lto --disable-nls --disable-multilib --disable-rpath --disable-symvers --disable-werror --disable-win32-registry --with-gnu-as --with-gnu-ld --with-system-libiconv --with-system-libz --with-gmp=/win/makedepends --with-mpfr=/win/makedepends --with-mpc=/win/makedepends
         Thread model: posix
         Supported LTO compression algorithms: zlib
         gcc version 13.1.0 (GCC) 
-        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles\\cmTC_b5ea9.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_b5ea9.dir\\'
-         C:/Users/GBT B450M-S2H/AppData/Local/Programs/CLion/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/cc1.exe -quiet -v -iprefix C:/Users/GBT B450M-S2H/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/ -D_REENTRANT C:\\Users\\GBT B450M-S2H\\AppData\\Local\\Programs\\CLion\\bin\\cmake\\win\\x64\\share\\cmake-3.28\\Modules\\CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles\\cmTC_b5ea9.dir\\ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=nocona -version -fdiagnostics-color=always -o C:\\Users\\GBTB45~1\\AppData\\Local\\Temp\\cchs0EIe.s
+        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles\\cmTC_440a0.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_440a0.dir\\'
+         C:/Users/Tobias Heyn/AppData/Local/Programs/CLion/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/cc1.exe -quiet -v -iprefix C:/Users/Tobias Heyn/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/ -D_REENTRANT C:\\Users\\Tobias Heyn\\AppData\\Local\\Programs\\CLion\\bin\\cmake\\win\\x64\\share\\cmake-3.28\\Modules\\CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles\\cmTC_440a0.dir\\ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=nocona -version -fdiagnostics-color=always -o C:\\Users\\TOBIAS~1\\AppData\\Local\\Temp\\ccofpFPe.s
         GNU C17 (GCC) version 13.1.0 (x86_64-w64-mingw32)
         	compiled by GNU C version 13.1.0, GMP version 6.2.1, MPFR version 4.2.0-p4, MPC version 1.3.1, isl version none
         GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
-        ignoring duplicate directory "C:/Users/GBT B450M-S2H/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.1.0/include"
+        ignoring duplicate directory "C:/Users/Tobias Heyn/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.1.0/include"
         ignoring nonexistent directory "/win/include"
-        ignoring duplicate directory "C:/Users/GBT B450M-S2H/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/../../include"
-        ignoring duplicate directory "C:/Users/GBT B450M-S2H/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"
-        ignoring duplicate directory "C:/Users/GBT B450M-S2H/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"
+        ignoring duplicate directory "C:/Users/Tobias Heyn/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/../../include"
+        ignoring duplicate directory "C:/Users/Tobias Heyn/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"
+        ignoring duplicate directory "C:/Users/Tobias Heyn/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"
         ignoring nonexistent directory "/mingw/include"
         #include "..." search starts here:
         #include <...> search starts here:
-         C:/Users/GBT B450M-S2H/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include
-         C:/Users/GBT B450M-S2H/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include
-         C:/Users/GBT B450M-S2H/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed
-         C:/Users/GBT B450M-S2H/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include
+         C:/Users/Tobias Heyn/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include
+         C:/Users/Tobias Heyn/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include
+         C:/Users/Tobias Heyn/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed
+         C:/Users/Tobias Heyn/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include
         End of search list.
         Compiler executable checksum: 2aa4fcf5c9208168c5e2d38a58fc2a97
-        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles\\cmTC_b5ea9.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_b5ea9.dir\\'
-         as -v -o CMakeFiles\\cmTC_b5ea9.dir\\CMakeCCompilerABI.c.obj C:\\Users\\GBTB45~1\\AppData\\Local\\Temp\\cchs0EIe.s
+        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles\\cmTC_440a0.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_440a0.dir\\'
+         as -v -o CMakeFiles\\cmTC_440a0.dir\\CMakeCCompilerABI.c.obj C:\\Users\\TOBIAS~1\\AppData\\Local\\Temp\\ccofpFPe.s
         GNU assembler version 2.40 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.40
-        COMPILER_PATH=C:/Users/GBT B450M-S2H/AppData/Local/Programs/CLion/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/;C:/Users/GBT B450M-S2H/AppData/Local/Programs/CLion/bin/mingw/bin/../libexec/gcc/
-        LIBRARY_PATH=C:/Users/GBT B450M-S2H/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/;C:/Users/GBT B450M-S2H/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/;C:/Users/GBT B450M-S2H/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/;C:/Users/GBT B450M-S2H/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib/;C:/Users/GBT B450M-S2H/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/;C:/Users/GBT B450M-S2H/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../
-        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles\\cmTC_b5ea9.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_b5ea9.dir\\CMakeCCompilerABI.c.'
-        Linking C executable cmTC_b5ea9.exe
-        "C:\\Users\\GBT B450M-S2H\\AppData\\Local\\Programs\\CLion\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_b5ea9.dir\\link.txt --verbose=1
-        "C:\\Users\\GBT B450M-S2H\\AppData\\Local\\Programs\\CLion\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_b5ea9.dir/objects.a
-        C:\\Users\\GBTB45~1\\AppData\\Local\\Programs\\CLion\\bin\\mingw\\bin\\ar.exe qc CMakeFiles\\cmTC_b5ea9.dir/objects.a @CMakeFiles\\cmTC_b5ea9.dir\\objects1.rsp
-        C:\\Users\\GBTB45~1\\AppData\\Local\\Programs\\CLion\\bin\\mingw\\bin\\gcc.exe  -v -Wl,--whole-archive CMakeFiles\\cmTC_b5ea9.dir/objects.a -Wl,--no-whole-archive -o cmTC_b5ea9.exe -Wl,--out-implib,libcmTC_b5ea9.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
+        COMPILER_PATH=C:/Users/Tobias Heyn/AppData/Local/Programs/CLion/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/;C:/Users/Tobias Heyn/AppData/Local/Programs/CLion/bin/mingw/bin/../libexec/gcc/
+        LIBRARY_PATH=C:/Users/Tobias Heyn/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/;C:/Users/Tobias Heyn/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/;C:/Users/Tobias Heyn/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/;C:/Users/Tobias Heyn/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib/;C:/Users/Tobias Heyn/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/;C:/Users/Tobias Heyn/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../
+        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles\\cmTC_440a0.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_440a0.dir\\CMakeCCompilerABI.c.'
+        Linking C executable cmTC_440a0.exe
+        "C:\\Users\\Tobias Heyn\\AppData\\Local\\Programs\\CLion\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_440a0.dir\\link.txt --verbose=1
+        "C:\\Users\\Tobias Heyn\\AppData\\Local\\Programs\\CLion\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_440a0.dir/objects.a
+        C:\\Users\\TOBIAS~1\\AppData\\Local\\Programs\\CLion\\bin\\mingw\\bin\\ar.exe qc CMakeFiles\\cmTC_440a0.dir/objects.a @CMakeFiles\\cmTC_440a0.dir\\objects1.rsp
+        C:\\Users\\TOBIAS~1\\AppData\\Local\\Programs\\CLion\\bin\\mingw\\bin\\gcc.exe  -v -Wl,--whole-archive CMakeFiles\\cmTC_440a0.dir/objects.a -Wl,--no-whole-archive -o cmTC_440a0.exe -Wl,--out-implib,libcmTC_440a0.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
         Using built-in specs.
-        COLLECT_GCC=C:\\Users\\GBTB45~1\\AppData\\Local\\Programs\\CLion\\bin\\mingw\\bin\\gcc.exe
-        COLLECT_LTO_WRAPPER=C:/Users/GBT\\ B450M-S2H/AppData/Local/Programs/CLion/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/lto-wrapper.exe
+        COLLECT_GCC=C:\\Users\\TOBIAS~1\\AppData\\Local\\Programs\\CLion\\bin\\mingw\\bin\\gcc.exe
+        COLLECT_LTO_WRAPPER=C:/Users/Tobias\\ Heyn/AppData/Local/Programs/CLion/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/lto-wrapper.exe
         Target: x86_64-w64-mingw32
         Configured with: ../gcc-13.1.0/configure --host=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --build=x86_64-alpine-linux-musl --prefix=/win --enable-checking=release --enable-fully-dynamic-string --enable-languages=c,c++ --with-arch=nocona --with-tune=generic --enable-libatomic --enable-libgomp --enable-libstdcxx-filesystem-ts --enable-libstdcxx-time --enable-seh-exceptions --enable-shared --enable-static --enable-threads=posix --enable-version-specific-runtime-libs --disable-bootstrap --disable-graphite --disable-libada --disable-libstdcxx-pch --disable-libstdcxx-debug --disable-libquadmath --disable-lto --disable-nls --disable-multilib --disable-rpath --disable-symvers --disable-werror --disable-win32-registry --with-gnu-as --with-gnu-ld --with-system-libiconv --with-system-libz --with-gmp=/win/makedepends --with-mpfr=/win/makedepends --with-mpc=/win/makedepends
         Thread model: posix
         Supported LTO compression algorithms: zlib
         gcc version 13.1.0 (GCC) 
-        COMPILER_PATH=C:/Users/GBT B450M-S2H/AppData/Local/Programs/CLion/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/;C:/Users/GBT B450M-S2H/AppData/Local/Programs/CLion/bin/mingw/bin/../libexec/gcc/
-        LIBRARY_PATH=C:/Users/GBT B450M-S2H/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/;C:/Users/GBT B450M-S2H/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/;C:/Users/GBT B450M-S2H/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/;C:/Users/GBT B450M-S2H/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib/;C:/Users/GBT B450M-S2H/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/;C:/Users/GBT B450M-S2H/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_b5ea9.exe' '-mtune=generic' '-march=nocona' '-dumpdir' 'cmTC_b5ea9.'
-         C:/Users/GBT B450M-S2H/AppData/Local/Programs/CLion/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/collect2.exe -m i386pep -Bdynamic -o cmTC_b5ea9.exe C:/Users/GBT B450M-S2H/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/Users/GBT B450M-S2H/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtbegin.o -LC:/Users/GBT B450M-S2H/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0 -LC:/Users/GBT B450M-S2H/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc -LC:/Users/GBT B450M-S2H/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/Users/GBT B450M-S2H/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib -LC:/Users/GBT B450M-S2H/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib -LC:/Users/GBT B450M-S2H/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../.. --whole-archive CMakeFiles\\cmTC_b5ea9.dir/objects.a --no-whole-archive --out-implib libcmTC_b5ea9.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 C:/Users/GBT B450M-S2H/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/default-manifest.o C:/Users/GBT B450M-S2H/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtend.o
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_b5ea9.exe' '-mtune=generic' '-march=nocona' '-dumpdir' 'cmTC_b5ea9.'
-        mingw32-make[1]: Leaving directory 'C:/Users/GBT B450M-S2H/CLionProjects/VisualComputing_2/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-io53u8'
+        COMPILER_PATH=C:/Users/Tobias Heyn/AppData/Local/Programs/CLion/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/;C:/Users/Tobias Heyn/AppData/Local/Programs/CLion/bin/mingw/bin/../libexec/gcc/
+        LIBRARY_PATH=C:/Users/Tobias Heyn/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/;C:/Users/Tobias Heyn/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/;C:/Users/Tobias Heyn/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/;C:/Users/Tobias Heyn/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib/;C:/Users/Tobias Heyn/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/;C:/Users/Tobias Heyn/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_440a0.exe' '-mtune=generic' '-march=nocona' '-dumpdir' 'cmTC_440a0.'
+         C:/Users/Tobias Heyn/AppData/Local/Programs/CLion/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/collect2.exe -m i386pep -Bdynamic -o cmTC_440a0.exe C:/Users/Tobias Heyn/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/Users/Tobias Heyn/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtbegin.o -LC:/Users/Tobias Heyn/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0 -LC:/Users/Tobias Heyn/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc -LC:/Users/Tobias Heyn/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/Users/Tobias Heyn/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib -LC:/Users/Tobias Heyn/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib -LC:/Users/Tobias Heyn/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../.. --whole-archive CMakeFiles\\cmTC_440a0.dir/objects.a --no-whole-archive --out-implib libcmTC_440a0.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 C:/Users/Tobias Heyn/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/default-manifest.o C:/Users/Tobias Heyn/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtend.o
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_440a0.exe' '-mtune=generic' '-march=nocona' '-dumpdir' 'cmTC_440a0.'
+        mingw32-make[1]: Leaving directory 'C:/Users/Tobias Heyn/CLionProjects/VisualComputing_2/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-frkbj6'
         
       exitCode: 0
   -
     kind: "message-v1"
     backtrace:
-      - "C:/Users/GBT B450M-S2H/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake:127 (message)"
-      - "C:/Users/GBT B450M-S2H/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "C:/Users/Tobias Heyn/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake:127 (message)"
+      - "C:/Users/Tobias Heyn/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
       - "CMakeLists.txt:421 (project)"
     message: |
       Parsed C implicit include dir info: rv=done
         found start of include info
         found start of implicit include info
-          add: [C:/Users/GBT B450M-S2H/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include]
-          add: [C:/Users/GBT B450M-S2H/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include]
-          add: [C:/Users/GBT B450M-S2H/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed]
-          add: [C:/Users/GBT B450M-S2H/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include]
+          add: [C:/Users/Tobias Heyn/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include]
+          add: [C:/Users/Tobias Heyn/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include]
+          add: [C:/Users/Tobias Heyn/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed]
+          add: [C:/Users/Tobias Heyn/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include]
         end of search list found
-        collapse include dir [C:/Users/GBT B450M-S2H/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include] ==> [C:/Users/GBT B450M-S2H/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include]
-        collapse include dir [C:/Users/GBT B450M-S2H/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include] ==> [C:/Users/GBT B450M-S2H/AppData/Local/Programs/CLion/bin/mingw/include]
-        collapse include dir [C:/Users/GBT B450M-S2H/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed] ==> [C:/Users/GBT B450M-S2H/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed]
-        collapse include dir [C:/Users/GBT B450M-S2H/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include] ==> [C:/Users/GBT B450M-S2H/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include]
-        implicit include dirs: [C:/Users/GBT B450M-S2H/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include;C:/Users/GBT B450M-S2H/AppData/Local/Programs/CLion/bin/mingw/include;C:/Users/GBT B450M-S2H/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed;C:/Users/GBT B450M-S2H/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include]
+        collapse include dir [C:/Users/Tobias Heyn/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include] ==> [C:/Users/Tobias Heyn/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include]
+        collapse include dir [C:/Users/Tobias Heyn/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include] ==> [C:/Users/Tobias Heyn/AppData/Local/Programs/CLion/bin/mingw/include]
+        collapse include dir [C:/Users/Tobias Heyn/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed] ==> [C:/Users/Tobias Heyn/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed]
+        collapse include dir [C:/Users/Tobias Heyn/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include] ==> [C:/Users/Tobias Heyn/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include]
+        implicit include dirs: [C:/Users/Tobias Heyn/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include;C:/Users/Tobias Heyn/AppData/Local/Programs/CLion/bin/mingw/include;C:/Users/Tobias Heyn/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed;C:/Users/Tobias Heyn/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include]
       
       
   -
     kind: "message-v1"
     backtrace:
-      - "C:/Users/GBT B450M-S2H/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake:159 (message)"
-      - "C:/Users/GBT B450M-S2H/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "C:/Users/Tobias Heyn/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake:159 (message)"
+      - "C:/Users/Tobias Heyn/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
       - "CMakeLists.txt:421 (project)"
     message: |
       Parsed C implicit link information:
         link line regex: [^( *|.*[/\\])(ld\\.exe|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
-        ignore line: [Change Dir: 'C:/Users/GBT B450M-S2H/CLionProjects/VisualComputing_2/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-io53u8']
+        ignore line: [Change Dir: 'C:/Users/Tobias Heyn/CLionProjects/VisualComputing_2/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-frkbj6']
         ignore line: []
-        ignore line: [Run Build Command(s): "C:/Users/GBT B450M-S2H/AppData/Local/Programs/CLion/bin/cmake/win/x64/bin/cmake.exe" -E env VERBOSE=1 C:/Users/GBTB45~1/AppData/Local/Programs/CLion/bin/mingw/bin/mingw32-make.exe -f Makefile cmTC_b5ea9/fast]
-        ignore line: [C:/Users/GBTB45~1/AppData/Local/Programs/CLion/bin/mingw/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_b5ea9.dir\\build.make CMakeFiles/cmTC_b5ea9.dir/build]
-        ignore line: [mingw32-make[1]: Entering directory 'C:/Users/GBT B450M-S2H/CLionProjects/VisualComputing_2/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-io53u8']
-        ignore line: [Building C object CMakeFiles/cmTC_b5ea9.dir/CMakeCCompilerABI.c.obj]
-        ignore line: [C:\\Users\\GBTB45~1\\AppData\\Local\\Programs\\CLion\\bin\\mingw\\bin\\gcc.exe   -fdiagnostics-color=always   -v -o CMakeFiles\\cmTC_b5ea9.dir\\CMakeCCompilerABI.c.obj -c "C:\\Users\\GBT B450M-S2H\\AppData\\Local\\Programs\\CLion\\bin\\cmake\\win\\x64\\share\\cmake-3.28\\Modules\\CMakeCCompilerABI.c"]
+        ignore line: [Run Build Command(s): "C:/Users/Tobias Heyn/AppData/Local/Programs/CLion/bin/cmake/win/x64/bin/cmake.exe" -E env VERBOSE=1 C:/Users/TOBIAS~1/AppData/Local/Programs/CLion/bin/mingw/bin/mingw32-make.exe -f Makefile cmTC_440a0/fast]
+        ignore line: [C:/Users/TOBIAS~1/AppData/Local/Programs/CLion/bin/mingw/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_440a0.dir\\build.make CMakeFiles/cmTC_440a0.dir/build]
+        ignore line: [mingw32-make[1]: Entering directory 'C:/Users/Tobias Heyn/CLionProjects/VisualComputing_2/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-frkbj6']
+        ignore line: [Building C object CMakeFiles/cmTC_440a0.dir/CMakeCCompilerABI.c.obj]
+        ignore line: [C:\\Users\\TOBIAS~1\\AppData\\Local\\Programs\\CLion\\bin\\mingw\\bin\\gcc.exe   -fdiagnostics-color=always   -v -o CMakeFiles\\cmTC_440a0.dir\\CMakeCCompilerABI.c.obj -c "C:\\Users\\Tobias Heyn\\AppData\\Local\\Programs\\CLion\\bin\\cmake\\win\\x64\\share\\cmake-3.28\\Modules\\CMakeCCompilerABI.c"]
         ignore line: [Using built-in specs.]
-        ignore line: [COLLECT_GCC=C:\\Users\\GBTB45~1\\AppData\\Local\\Programs\\CLion\\bin\\mingw\\bin\\gcc.exe]
+        ignore line: [COLLECT_GCC=C:\\Users\\TOBIAS~1\\AppData\\Local\\Programs\\CLion\\bin\\mingw\\bin\\gcc.exe]
         ignore line: [Target: x86_64-w64-mingw32]
         ignore line: [Configured with: ../gcc-13.1.0/configure --host=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --build=x86_64-alpine-linux-musl --prefix=/win --enable-checking=release --enable-fully-dynamic-string --enable-languages=c,c++ --with-arch=nocona --with-tune=generic --enable-libatomic --enable-libgomp --enable-libstdcxx-filesystem-ts --enable-libstdcxx-time --enable-seh-exceptions --enable-shared --enable-static --enable-threads=posix --enable-version-specific-runtime-libs --disable-bootstrap --disable-graphite --disable-libada --disable-libstdcxx-pch --disable-libstdcxx-debug --disable-libquadmath --disable-lto --disable-nls --disable-multilib --disable-rpath --disable-symvers --disable-werror --disable-win32-registry --with-gnu-as --with-gnu-ld --with-system-libiconv --with-system-libz --with-gmp=/win/makedepends --with-mpfr=/win/makedepends --with-mpc=/win/makedepends]
         ignore line: [Thread model: posix]
         ignore line: [Supported LTO compression algorithms: zlib]
         ignore line: [gcc version 13.1.0 (GCC) ]
-        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles\\cmTC_b5ea9.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_b5ea9.dir\\']
-        ignore line: [ C:/Users/GBT B450M-S2H/AppData/Local/Programs/CLion/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/cc1.exe -quiet -v -iprefix C:/Users/GBT B450M-S2H/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/ -D_REENTRANT C:\\Users\\GBT B450M-S2H\\AppData\\Local\\Programs\\CLion\\bin\\cmake\\win\\x64\\share\\cmake-3.28\\Modules\\CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles\\cmTC_b5ea9.dir\\ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=nocona -version -fdiagnostics-color=always -o C:\\Users\\GBTB45~1\\AppData\\Local\\Temp\\cchs0EIe.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles\\cmTC_440a0.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_440a0.dir\\']
+        ignore line: [ C:/Users/Tobias Heyn/AppData/Local/Programs/CLion/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/cc1.exe -quiet -v -iprefix C:/Users/Tobias Heyn/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/ -D_REENTRANT C:\\Users\\Tobias Heyn\\AppData\\Local\\Programs\\CLion\\bin\\cmake\\win\\x64\\share\\cmake-3.28\\Modules\\CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles\\cmTC_440a0.dir\\ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=nocona -version -fdiagnostics-color=always -o C:\\Users\\TOBIAS~1\\AppData\\Local\\Temp\\ccofpFPe.s]
         ignore line: [GNU C17 (GCC) version 13.1.0 (x86_64-w64-mingw32)]
         ignore line: [	compiled by GNU C version 13.1.0  GMP version 6.2.1  MPFR version 4.2.0-p4  MPC version 1.3.1  isl version none]
         ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
-        ignore line: [ignoring duplicate directory "C:/Users/GBT B450M-S2H/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.1.0/include"]
+        ignore line: [ignoring duplicate directory "C:/Users/Tobias Heyn/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.1.0/include"]
         ignore line: [ignoring nonexistent directory "/win/include"]
-        ignore line: [ignoring duplicate directory "C:/Users/GBT B450M-S2H/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/../../include"]
-        ignore line: [ignoring duplicate directory "C:/Users/GBT B450M-S2H/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"]
-        ignore line: [ignoring duplicate directory "C:/Users/GBT B450M-S2H/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"]
+        ignore line: [ignoring duplicate directory "C:/Users/Tobias Heyn/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/../../include"]
+        ignore line: [ignoring duplicate directory "C:/Users/Tobias Heyn/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"]
+        ignore line: [ignoring duplicate directory "C:/Users/Tobias Heyn/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"]
         ignore line: [ignoring nonexistent directory "/mingw/include"]
         ignore line: [#include "..." search starts here:]
         ignore line: [#include <...> search starts here:]
-        ignore line: [ C:/Users/GBT B450M-S2H/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include]
-        ignore line: [ C:/Users/GBT B450M-S2H/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include]
-        ignore line: [ C:/Users/GBT B450M-S2H/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed]
-        ignore line: [ C:/Users/GBT B450M-S2H/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include]
+        ignore line: [ C:/Users/Tobias Heyn/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include]
+        ignore line: [ C:/Users/Tobias Heyn/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include]
+        ignore line: [ C:/Users/Tobias Heyn/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed]
+        ignore line: [ C:/Users/Tobias Heyn/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include]
         ignore line: [End of search list.]
         ignore line: [Compiler executable checksum: 2aa4fcf5c9208168c5e2d38a58fc2a97]
-        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles\\cmTC_b5ea9.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_b5ea9.dir\\']
-        ignore line: [ as -v -o CMakeFiles\\cmTC_b5ea9.dir\\CMakeCCompilerABI.c.obj C:\\Users\\GBTB45~1\\AppData\\Local\\Temp\\cchs0EIe.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles\\cmTC_440a0.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_440a0.dir\\']
+        ignore line: [ as -v -o CMakeFiles\\cmTC_440a0.dir\\CMakeCCompilerABI.c.obj C:\\Users\\TOBIAS~1\\AppData\\Local\\Temp\\ccofpFPe.s]
         ignore line: [GNU assembler version 2.40 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.40]
-        ignore line: [COMPILER_PATH=C:/Users/GBT B450M-S2H/AppData/Local/Programs/CLion/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/]
-        ignore line: [C:/Users/GBT B450M-S2H/AppData/Local/Programs/CLion/bin/mingw/bin/../libexec/gcc/]
-        ignore line: [LIBRARY_PATH=C:/Users/GBT B450M-S2H/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/]
-        ignore line: [C:/Users/GBT B450M-S2H/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/]
-        ignore line: [C:/Users/GBT B450M-S2H/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/]
-        ignore line: [C:/Users/GBT B450M-S2H/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib/]
-        ignore line: [C:/Users/GBT B450M-S2H/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/]
-        ignore line: [C:/Users/GBT B450M-S2H/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../]
-        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles\\cmTC_b5ea9.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_b5ea9.dir\\CMakeCCompilerABI.c.']
-        ignore line: [Linking C executable cmTC_b5ea9.exe]
-        ignore line: ["C:\\Users\\GBT B450M-S2H\\AppData\\Local\\Programs\\CLion\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_b5ea9.dir\\link.txt --verbose=1]
-        ignore line: ["C:\\Users\\GBT B450M-S2H\\AppData\\Local\\Programs\\CLion\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_b5ea9.dir/objects.a]
-        ignore line: [C:\\Users\\GBTB45~1\\AppData\\Local\\Programs\\CLion\\bin\\mingw\\bin\\ar.exe qc CMakeFiles\\cmTC_b5ea9.dir/objects.a @CMakeFiles\\cmTC_b5ea9.dir\\objects1.rsp]
-        ignore line: [C:\\Users\\GBTB45~1\\AppData\\Local\\Programs\\CLion\\bin\\mingw\\bin\\gcc.exe  -v -Wl --whole-archive CMakeFiles\\cmTC_b5ea9.dir/objects.a -Wl --no-whole-archive -o cmTC_b5ea9.exe -Wl --out-implib libcmTC_b5ea9.dll.a -Wl --major-image-version 0 --minor-image-version 0 ]
+        ignore line: [COMPILER_PATH=C:/Users/Tobias Heyn/AppData/Local/Programs/CLion/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/]
+        ignore line: [C:/Users/Tobias Heyn/AppData/Local/Programs/CLion/bin/mingw/bin/../libexec/gcc/]
+        ignore line: [LIBRARY_PATH=C:/Users/Tobias Heyn/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/]
+        ignore line: [C:/Users/Tobias Heyn/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/]
+        ignore line: [C:/Users/Tobias Heyn/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/]
+        ignore line: [C:/Users/Tobias Heyn/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib/]
+        ignore line: [C:/Users/Tobias Heyn/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/]
+        ignore line: [C:/Users/Tobias Heyn/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../]
+        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles\\cmTC_440a0.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_440a0.dir\\CMakeCCompilerABI.c.']
+        ignore line: [Linking C executable cmTC_440a0.exe]
+        ignore line: ["C:\\Users\\Tobias Heyn\\AppData\\Local\\Programs\\CLion\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_440a0.dir\\link.txt --verbose=1]
+        ignore line: ["C:\\Users\\Tobias Heyn\\AppData\\Local\\Programs\\CLion\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_440a0.dir/objects.a]
+        ignore line: [C:\\Users\\TOBIAS~1\\AppData\\Local\\Programs\\CLion\\bin\\mingw\\bin\\ar.exe qc CMakeFiles\\cmTC_440a0.dir/objects.a @CMakeFiles\\cmTC_440a0.dir\\objects1.rsp]
+        ignore line: [C:\\Users\\TOBIAS~1\\AppData\\Local\\Programs\\CLion\\bin\\mingw\\bin\\gcc.exe  -v -Wl --whole-archive CMakeFiles\\cmTC_440a0.dir/objects.a -Wl --no-whole-archive -o cmTC_440a0.exe -Wl --out-implib libcmTC_440a0.dll.a -Wl --major-image-version 0 --minor-image-version 0 ]
         ignore line: [Using built-in specs.]
-        ignore line: [COLLECT_GCC=C:\\Users\\GBTB45~1\\AppData\\Local\\Programs\\CLion\\bin\\mingw\\bin\\gcc.exe]
-        ignore line: [COLLECT_LTO_WRAPPER=C:/Users/GBT\\ B450M-S2H/AppData/Local/Programs/CLion/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/lto-wrapper.exe]
+        ignore line: [COLLECT_GCC=C:\\Users\\TOBIAS~1\\AppData\\Local\\Programs\\CLion\\bin\\mingw\\bin\\gcc.exe]
+        ignore line: [COLLECT_LTO_WRAPPER=C:/Users/Tobias\\ Heyn/AppData/Local/Programs/CLion/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/lto-wrapper.exe]
         ignore line: [Target: x86_64-w64-mingw32]
         ignore line: [Configured with: ../gcc-13.1.0/configure --host=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --build=x86_64-alpine-linux-musl --prefix=/win --enable-checking=release --enable-fully-dynamic-string --enable-languages=c,c++ --with-arch=nocona --with-tune=generic --enable-libatomic --enable-libgomp --enable-libstdcxx-filesystem-ts --enable-libstdcxx-time --enable-seh-exceptions --enable-shared --enable-static --enable-threads=posix --enable-version-specific-runtime-libs --disable-bootstrap --disable-graphite --disable-libada --disable-libstdcxx-pch --disable-libstdcxx-debug --disable-libquadmath --disable-lto --disable-nls --disable-multilib --disable-rpath --disable-symvers --disable-werror --disable-win32-registry --with-gnu-as --with-gnu-ld --with-system-libiconv --with-system-libz --with-gmp=/win/makedepends --with-mpfr=/win/makedepends --with-mpc=/win/makedepends]
         ignore line: [Thread model: posix]
         ignore line: [Supported LTO compression algorithms: zlib]
         ignore line: [gcc version 13.1.0 (GCC) ]
-        ignore line: [COMPILER_PATH=C:/Users/GBT B450M-S2H/AppData/Local/Programs/CLion/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/]
-        ignore line: [C:/Users/GBT B450M-S2H/AppData/Local/Programs/CLion/bin/mingw/bin/../libexec/gcc/]
-        ignore line: [LIBRARY_PATH=C:/Users/GBT B450M-S2H/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/]
-        ignore line: [C:/Users/GBT B450M-S2H/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/]
-        ignore line: [C:/Users/GBT B450M-S2H/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/]
-        ignore line: [C:/Users/GBT B450M-S2H/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib/]
-        ignore line: [C:/Users/GBT B450M-S2H/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/]
-        ignore line: [C:/Users/GBT B450M-S2H/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_b5ea9.exe' '-mtune=generic' '-march=nocona' '-dumpdir' 'cmTC_b5ea9.']
-        ignore line: [ C:/Users/GBT B450M-S2H/AppData/Local/Programs/CLion/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/collect2.exe -m i386pep -Bdynamic -o cmTC_b5ea9.exe C:/Users/GBT B450M-S2H/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/Users/GBT B450M-S2H/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtbegin.o -LC:/Users/GBT B450M-S2H/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0 -LC:/Users/GBT B450M-S2H/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc -LC:/Users/GBT B450M-S2H/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/Users/GBT B450M-S2H/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib -LC:/Users/GBT B450M-S2H/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib -LC:/Users/GBT B450M-S2H/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../.. --whole-archive CMakeFiles\\cmTC_b5ea9.dir/objects.a --no-whole-archive --out-implib libcmTC_b5ea9.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 C:/Users/GBT B450M-S2H/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/default-manifest.o C:/Users/GBT B450M-S2H/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtend.o]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_b5ea9.exe' '-mtune=generic' '-march=nocona' '-dumpdir' 'cmTC_b5ea9.']
-        ignore line: [mingw32-make[1]: Leaving directory 'C:/Users/GBT B450M-S2H/CLionProjects/VisualComputing_2/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-io53u8']
+        ignore line: [COMPILER_PATH=C:/Users/Tobias Heyn/AppData/Local/Programs/CLion/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/]
+        ignore line: [C:/Users/Tobias Heyn/AppData/Local/Programs/CLion/bin/mingw/bin/../libexec/gcc/]
+        ignore line: [LIBRARY_PATH=C:/Users/Tobias Heyn/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/]
+        ignore line: [C:/Users/Tobias Heyn/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/]
+        ignore line: [C:/Users/Tobias Heyn/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/]
+        ignore line: [C:/Users/Tobias Heyn/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib/]
+        ignore line: [C:/Users/Tobias Heyn/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/]
+        ignore line: [C:/Users/Tobias Heyn/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_440a0.exe' '-mtune=generic' '-march=nocona' '-dumpdir' 'cmTC_440a0.']
+        ignore line: [ C:/Users/Tobias Heyn/AppData/Local/Programs/CLion/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/collect2.exe -m i386pep -Bdynamic -o cmTC_440a0.exe C:/Users/Tobias Heyn/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/Users/Tobias Heyn/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtbegin.o -LC:/Users/Tobias Heyn/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0 -LC:/Users/Tobias Heyn/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc -LC:/Users/Tobias Heyn/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/Users/Tobias Heyn/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib -LC:/Users/Tobias Heyn/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib -LC:/Users/Tobias Heyn/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../.. --whole-archive CMakeFiles\\cmTC_440a0.dir/objects.a --no-whole-archive --out-implib libcmTC_440a0.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 C:/Users/Tobias Heyn/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/default-manifest.o C:/Users/Tobias Heyn/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtend.o]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_440a0.exe' '-mtune=generic' '-march=nocona' '-dumpdir' 'cmTC_440a0.']
+        ignore line: [mingw32-make[1]: Leaving directory 'C:/Users/Tobias Heyn/CLionProjects/VisualComputing_2/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-frkbj6']
         ignore line: []
         ignore line: []
         implicit libs: []
@@ -241,199 +241,199 @@ events:
   -
     kind: "try_compile-v1"
     backtrace:
-      - "C:/Users/GBT B450M-S2H/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
-      - "C:/Users/GBT B450M-S2H/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "C:/Users/Tobias Heyn/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "C:/Users/Tobias Heyn/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
       - "CMakeLists.txt:421 (project)"
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "C:/Users/GBT B450M-S2H/CLionProjects/VisualComputing_2/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-83yy7z"
-      binary: "C:/Users/GBT B450M-S2H/CLionProjects/VisualComputing_2/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-83yy7z"
+      source: "C:/Users/Tobias Heyn/CLionProjects/VisualComputing_2/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-s8b81b"
+      binary: "C:/Users/Tobias Heyn/CLionProjects/VisualComputing_2/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-s8b81b"
     cmakeVariables:
       CMAKE_CXX_FLAGS: ""
     buildResult:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/GBT B450M-S2H/CLionProjects/VisualComputing_2/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-83yy7z'
+        Change Dir: 'C:/Users/Tobias Heyn/CLionProjects/VisualComputing_2/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-s8b81b'
         
-        Run Build Command(s): "C:/Users/GBT B450M-S2H/AppData/Local/Programs/CLion/bin/cmake/win/x64/bin/cmake.exe" -E env VERBOSE=1 C:/Users/GBTB45~1/AppData/Local/Programs/CLion/bin/mingw/bin/mingw32-make.exe -f Makefile cmTC_1175e/fast
-        C:/Users/GBTB45~1/AppData/Local/Programs/CLion/bin/mingw/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_1175e.dir\\build.make CMakeFiles/cmTC_1175e.dir/build
-        mingw32-make[1]: Entering directory 'C:/Users/GBT B450M-S2H/CLionProjects/VisualComputing_2/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-83yy7z'
-        Building CXX object CMakeFiles/cmTC_1175e.dir/CMakeCXXCompilerABI.cpp.obj
-        C:\\Users\\GBTB45~1\\AppData\\Local\\Programs\\CLion\\bin\\mingw\\bin\\G__~1.EXE   -fdiagnostics-color=always   -v -o CMakeFiles\\cmTC_1175e.dir\\CMakeCXXCompilerABI.cpp.obj -c "C:\\Users\\GBT B450M-S2H\\AppData\\Local\\Programs\\CLion\\bin\\cmake\\win\\x64\\share\\cmake-3.28\\Modules\\CMakeCXXCompilerABI.cpp"
+        Run Build Command(s): "C:/Users/Tobias Heyn/AppData/Local/Programs/CLion/bin/cmake/win/x64/bin/cmake.exe" -E env VERBOSE=1 C:/Users/TOBIAS~1/AppData/Local/Programs/CLion/bin/mingw/bin/mingw32-make.exe -f Makefile cmTC_0f83d/fast
+        C:/Users/TOBIAS~1/AppData/Local/Programs/CLion/bin/mingw/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_0f83d.dir\\build.make CMakeFiles/cmTC_0f83d.dir/build
+        mingw32-make[1]: Entering directory 'C:/Users/Tobias Heyn/CLionProjects/VisualComputing_2/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-s8b81b'
+        Building CXX object CMakeFiles/cmTC_0f83d.dir/CMakeCXXCompilerABI.cpp.obj
+        C:\\Users\\TOBIAS~1\\AppData\\Local\\Programs\\CLion\\bin\\mingw\\bin\\G__~1.EXE   -fdiagnostics-color=always   -v -o CMakeFiles\\cmTC_0f83d.dir\\CMakeCXXCompilerABI.cpp.obj -c "C:\\Users\\Tobias Heyn\\AppData\\Local\\Programs\\CLion\\bin\\cmake\\win\\x64\\share\\cmake-3.28\\Modules\\CMakeCXXCompilerABI.cpp"
         Using built-in specs.
-        COLLECT_GCC=C:\\Users\\GBTB45~1\\AppData\\Local\\Programs\\CLion\\bin\\mingw\\bin\\G__~1.EXE
+        COLLECT_GCC=C:\\Users\\TOBIAS~1\\AppData\\Local\\Programs\\CLion\\bin\\mingw\\bin\\G__~1.EXE
         Target: x86_64-w64-mingw32
         Configured with: ../gcc-13.1.0/configure --host=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --build=x86_64-alpine-linux-musl --prefix=/win --enable-checking=release --enable-fully-dynamic-string --enable-languages=c,c++ --with-arch=nocona --with-tune=generic --enable-libatomic --enable-libgomp --enable-libstdcxx-filesystem-ts --enable-libstdcxx-time --enable-seh-exceptions --enable-shared --enable-static --enable-threads=posix --enable-version-specific-runtime-libs --disable-bootstrap --disable-graphite --disable-libada --disable-libstdcxx-pch --disable-libstdcxx-debug --disable-libquadmath --disable-lto --disable-nls --disable-multilib --disable-rpath --disable-symvers --disable-werror --disable-win32-registry --with-gnu-as --with-gnu-ld --with-system-libiconv --with-system-libz --with-gmp=/win/makedepends --with-mpfr=/win/makedepends --with-mpc=/win/makedepends
         Thread model: posix
         Supported LTO compression algorithms: zlib
         gcc version 13.1.0 (GCC) 
-        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles\\cmTC_1175e.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_1175e.dir\\'
-         C:/Users/GBT B450M-S2H/AppData/Local/Programs/CLion/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/cc1plus.exe -quiet -v -iprefix C:/Users/GBT B450M-S2H/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/ -D_REENTRANT C:\\Users\\GBT B450M-S2H\\AppData\\Local\\Programs\\CLion\\bin\\cmake\\win\\x64\\share\\cmake-3.28\\Modules\\CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles\\cmTC_1175e.dir\\ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=nocona -version -fdiagnostics-color=always -o C:\\Users\\GBTB45~1\\AppData\\Local\\Temp\\ccJkTxmT.s
+        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles\\cmTC_0f83d.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_0f83d.dir\\'
+         C:/Users/Tobias Heyn/AppData/Local/Programs/CLion/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/cc1plus.exe -quiet -v -iprefix C:/Users/Tobias Heyn/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/ -D_REENTRANT C:\\Users\\Tobias Heyn\\AppData\\Local\\Programs\\CLion\\bin\\cmake\\win\\x64\\share\\cmake-3.28\\Modules\\CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles\\cmTC_0f83d.dir\\ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=nocona -version -fdiagnostics-color=always -o C:\\Users\\TOBIAS~1\\AppData\\Local\\Temp\\ccCJRTUM.s
         GNU C++17 (GCC) version 13.1.0 (x86_64-w64-mingw32)
         	compiled by GNU C version 13.1.0, GMP version 6.2.1, MPFR version 4.2.0-p4, MPC version 1.3.1, isl version none
         GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
-        ignoring duplicate directory "C:/Users/GBT B450M-S2H/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++"
-        ignoring duplicate directory "C:/Users/GBT B450M-S2H/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32"
-        ignoring duplicate directory "C:/Users/GBT B450M-S2H/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward"
-        ignoring duplicate directory "C:/Users/GBT B450M-S2H/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.1.0/include"
+        ignoring duplicate directory "C:/Users/Tobias Heyn/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++"
+        ignoring duplicate directory "C:/Users/Tobias Heyn/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32"
+        ignoring duplicate directory "C:/Users/Tobias Heyn/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward"
+        ignoring duplicate directory "C:/Users/Tobias Heyn/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.1.0/include"
         ignoring nonexistent directory "/win/include"
-        ignoring duplicate directory "C:/Users/GBT B450M-S2H/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/../../include"
-        ignoring duplicate directory "C:/Users/GBT B450M-S2H/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"
-        ignoring duplicate directory "C:/Users/GBT B450M-S2H/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"
+        ignoring duplicate directory "C:/Users/Tobias Heyn/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/../../include"
+        ignoring duplicate directory "C:/Users/Tobias Heyn/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"
+        ignoring duplicate directory "C:/Users/Tobias Heyn/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"
         ignoring nonexistent directory "/mingw/include"
         #include "..." search starts here:
         #include <...> search starts here:
-         C:/Users/GBT B450M-S2H/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++
-         C:/Users/GBT B450M-S2H/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32
-         C:/Users/GBT B450M-S2H/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward
-         C:/Users/GBT B450M-S2H/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include
-         C:/Users/GBT B450M-S2H/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include
-         C:/Users/GBT B450M-S2H/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed
-         C:/Users/GBT B450M-S2H/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include
+         C:/Users/Tobias Heyn/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++
+         C:/Users/Tobias Heyn/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32
+         C:/Users/Tobias Heyn/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward
+         C:/Users/Tobias Heyn/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include
+         C:/Users/Tobias Heyn/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include
+         C:/Users/Tobias Heyn/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed
+         C:/Users/Tobias Heyn/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include
         End of search list.
         Compiler executable checksum: e75de627edc3c57e31324b930b15b056
-        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles\\cmTC_1175e.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_1175e.dir\\'
-         as -v -o CMakeFiles\\cmTC_1175e.dir\\CMakeCXXCompilerABI.cpp.obj C:\\Users\\GBTB45~1\\AppData\\Local\\Temp\\ccJkTxmT.s
+        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles\\cmTC_0f83d.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_0f83d.dir\\'
+         as -v -o CMakeFiles\\cmTC_0f83d.dir\\CMakeCXXCompilerABI.cpp.obj C:\\Users\\TOBIAS~1\\AppData\\Local\\Temp\\ccCJRTUM.s
         GNU assembler version 2.40 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.40
-        COMPILER_PATH=C:/Users/GBT B450M-S2H/AppData/Local/Programs/CLion/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/;C:/Users/GBT B450M-S2H/AppData/Local/Programs/CLion/bin/mingw/bin/../libexec/gcc/
-        LIBRARY_PATH=C:/Users/GBT B450M-S2H/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/;C:/Users/GBT B450M-S2H/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/;C:/Users/GBT B450M-S2H/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/;C:/Users/GBT B450M-S2H/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib/;C:/Users/GBT B450M-S2H/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/;C:/Users/GBT B450M-S2H/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../
-        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles\\cmTC_1175e.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_1175e.dir\\CMakeCXXCompilerABI.cpp.'
-        Linking CXX executable cmTC_1175e.exe
-        "C:\\Users\\GBT B450M-S2H\\AppData\\Local\\Programs\\CLion\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_1175e.dir\\link.txt --verbose=1
-        "C:\\Users\\GBT B450M-S2H\\AppData\\Local\\Programs\\CLion\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_1175e.dir/objects.a
-        C:\\Users\\GBTB45~1\\AppData\\Local\\Programs\\CLion\\bin\\mingw\\bin\\ar.exe qc CMakeFiles\\cmTC_1175e.dir/objects.a @CMakeFiles\\cmTC_1175e.dir\\objects1.rsp
-        C:\\Users\\GBTB45~1\\AppData\\Local\\Programs\\CLion\\bin\\mingw\\bin\\G__~1.EXE  -v -Wl,--whole-archive CMakeFiles\\cmTC_1175e.dir/objects.a -Wl,--no-whole-archive -o cmTC_1175e.exe -Wl,--out-implib,libcmTC_1175e.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
+        COMPILER_PATH=C:/Users/Tobias Heyn/AppData/Local/Programs/CLion/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/;C:/Users/Tobias Heyn/AppData/Local/Programs/CLion/bin/mingw/bin/../libexec/gcc/
+        LIBRARY_PATH=C:/Users/Tobias Heyn/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/;C:/Users/Tobias Heyn/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/;C:/Users/Tobias Heyn/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/;C:/Users/Tobias Heyn/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib/;C:/Users/Tobias Heyn/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/;C:/Users/Tobias Heyn/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../
+        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles\\cmTC_0f83d.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_0f83d.dir\\CMakeCXXCompilerABI.cpp.'
+        Linking CXX executable cmTC_0f83d.exe
+        "C:\\Users\\Tobias Heyn\\AppData\\Local\\Programs\\CLion\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_0f83d.dir\\link.txt --verbose=1
+        "C:\\Users\\Tobias Heyn\\AppData\\Local\\Programs\\CLion\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_0f83d.dir/objects.a
+        C:\\Users\\TOBIAS~1\\AppData\\Local\\Programs\\CLion\\bin\\mingw\\bin\\ar.exe qc CMakeFiles\\cmTC_0f83d.dir/objects.a @CMakeFiles\\cmTC_0f83d.dir\\objects1.rsp
+        C:\\Users\\TOBIAS~1\\AppData\\Local\\Programs\\CLion\\bin\\mingw\\bin\\G__~1.EXE  -v -Wl,--whole-archive CMakeFiles\\cmTC_0f83d.dir/objects.a -Wl,--no-whole-archive -o cmTC_0f83d.exe -Wl,--out-implib,libcmTC_0f83d.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
         Using built-in specs.
-        COLLECT_GCC=C:\\Users\\GBTB45~1\\AppData\\Local\\Programs\\CLion\\bin\\mingw\\bin\\G__~1.EXE
-        COLLECT_LTO_WRAPPER=C:/Users/GBT\\ B450M-S2H/AppData/Local/Programs/CLion/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/lto-wrapper.exe
+        COLLECT_GCC=C:\\Users\\TOBIAS~1\\AppData\\Local\\Programs\\CLion\\bin\\mingw\\bin\\G__~1.EXE
+        COLLECT_LTO_WRAPPER=C:/Users/Tobias\\ Heyn/AppData/Local/Programs/CLion/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/lto-wrapper.exe
         Target: x86_64-w64-mingw32
         Configured with: ../gcc-13.1.0/configure --host=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --build=x86_64-alpine-linux-musl --prefix=/win --enable-checking=release --enable-fully-dynamic-string --enable-languages=c,c++ --with-arch=nocona --with-tune=generic --enable-libatomic --enable-libgomp --enable-libstdcxx-filesystem-ts --enable-libstdcxx-time --enable-seh-exceptions --enable-shared --enable-static --enable-threads=posix --enable-version-specific-runtime-libs --disable-bootstrap --disable-graphite --disable-libada --disable-libstdcxx-pch --disable-libstdcxx-debug --disable-libquadmath --disable-lto --disable-nls --disable-multilib --disable-rpath --disable-symvers --disable-werror --disable-win32-registry --with-gnu-as --with-gnu-ld --with-system-libiconv --with-system-libz --with-gmp=/win/makedepends --with-mpfr=/win/makedepends --with-mpc=/win/makedepends
         Thread model: posix
         Supported LTO compression algorithms: zlib
         gcc version 13.1.0 (GCC) 
-        COMPILER_PATH=C:/Users/GBT B450M-S2H/AppData/Local/Programs/CLion/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/;C:/Users/GBT B450M-S2H/AppData/Local/Programs/CLion/bin/mingw/bin/../libexec/gcc/
-        LIBRARY_PATH=C:/Users/GBT B450M-S2H/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/;C:/Users/GBT B450M-S2H/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/;C:/Users/GBT B450M-S2H/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/;C:/Users/GBT B450M-S2H/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib/;C:/Users/GBT B450M-S2H/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/;C:/Users/GBT B450M-S2H/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_1175e.exe' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'cmTC_1175e.'
-         C:/Users/GBT B450M-S2H/AppData/Local/Programs/CLion/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/collect2.exe -m i386pep -Bdynamic -o cmTC_1175e.exe C:/Users/GBT B450M-S2H/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/Users/GBT B450M-S2H/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtbegin.o -LC:/Users/GBT B450M-S2H/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0 -LC:/Users/GBT B450M-S2H/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc -LC:/Users/GBT B450M-S2H/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/Users/GBT B450M-S2H/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib -LC:/Users/GBT B450M-S2H/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib -LC:/Users/GBT B450M-S2H/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../.. --whole-archive CMakeFiles\\cmTC_1175e.dir/objects.a --no-whole-archive --out-implib libcmTC_1175e.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 C:/Users/GBT B450M-S2H/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/default-manifest.o C:/Users/GBT B450M-S2H/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtend.o
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_1175e.exe' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'cmTC_1175e.'
-        mingw32-make[1]: Leaving directory 'C:/Users/GBT B450M-S2H/CLionProjects/VisualComputing_2/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-83yy7z'
+        COMPILER_PATH=C:/Users/Tobias Heyn/AppData/Local/Programs/CLion/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/;C:/Users/Tobias Heyn/AppData/Local/Programs/CLion/bin/mingw/bin/../libexec/gcc/
+        LIBRARY_PATH=C:/Users/Tobias Heyn/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/;C:/Users/Tobias Heyn/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/;C:/Users/Tobias Heyn/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/;C:/Users/Tobias Heyn/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib/;C:/Users/Tobias Heyn/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/;C:/Users/Tobias Heyn/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_0f83d.exe' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'cmTC_0f83d.'
+         C:/Users/Tobias Heyn/AppData/Local/Programs/CLion/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/collect2.exe -m i386pep -Bdynamic -o cmTC_0f83d.exe C:/Users/Tobias Heyn/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/Users/Tobias Heyn/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtbegin.o -LC:/Users/Tobias Heyn/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0 -LC:/Users/Tobias Heyn/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc -LC:/Users/Tobias Heyn/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/Users/Tobias Heyn/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib -LC:/Users/Tobias Heyn/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib -LC:/Users/Tobias Heyn/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../.. --whole-archive CMakeFiles\\cmTC_0f83d.dir/objects.a --no-whole-archive --out-implib libcmTC_0f83d.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 C:/Users/Tobias Heyn/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/default-manifest.o C:/Users/Tobias Heyn/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtend.o
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_0f83d.exe' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'cmTC_0f83d.'
+        mingw32-make[1]: Leaving directory 'C:/Users/Tobias Heyn/CLionProjects/VisualComputing_2/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-s8b81b'
         
       exitCode: 0
   -
     kind: "message-v1"
     backtrace:
-      - "C:/Users/GBT B450M-S2H/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake:127 (message)"
-      - "C:/Users/GBT B450M-S2H/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "C:/Users/Tobias Heyn/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake:127 (message)"
+      - "C:/Users/Tobias Heyn/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
       - "CMakeLists.txt:421 (project)"
     message: |
       Parsed CXX implicit include dir info: rv=done
         found start of include info
         found start of implicit include info
-          add: [C:/Users/GBT B450M-S2H/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++]
-          add: [C:/Users/GBT B450M-S2H/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32]
-          add: [C:/Users/GBT B450M-S2H/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward]
-          add: [C:/Users/GBT B450M-S2H/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include]
-          add: [C:/Users/GBT B450M-S2H/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include]
-          add: [C:/Users/GBT B450M-S2H/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed]
-          add: [C:/Users/GBT B450M-S2H/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include]
+          add: [C:/Users/Tobias Heyn/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++]
+          add: [C:/Users/Tobias Heyn/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32]
+          add: [C:/Users/Tobias Heyn/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward]
+          add: [C:/Users/Tobias Heyn/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include]
+          add: [C:/Users/Tobias Heyn/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include]
+          add: [C:/Users/Tobias Heyn/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed]
+          add: [C:/Users/Tobias Heyn/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include]
         end of search list found
-        collapse include dir [C:/Users/GBT B450M-S2H/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++] ==> [C:/Users/GBT B450M-S2H/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++]
-        collapse include dir [C:/Users/GBT B450M-S2H/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32] ==> [C:/Users/GBT B450M-S2H/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32]
-        collapse include dir [C:/Users/GBT B450M-S2H/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward] ==> [C:/Users/GBT B450M-S2H/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward]
-        collapse include dir [C:/Users/GBT B450M-S2H/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include] ==> [C:/Users/GBT B450M-S2H/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include]
-        collapse include dir [C:/Users/GBT B450M-S2H/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include] ==> [C:/Users/GBT B450M-S2H/AppData/Local/Programs/CLion/bin/mingw/include]
-        collapse include dir [C:/Users/GBT B450M-S2H/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed] ==> [C:/Users/GBT B450M-S2H/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed]
-        collapse include dir [C:/Users/GBT B450M-S2H/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include] ==> [C:/Users/GBT B450M-S2H/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include]
-        implicit include dirs: [C:/Users/GBT B450M-S2H/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++;C:/Users/GBT B450M-S2H/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32;C:/Users/GBT B450M-S2H/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward;C:/Users/GBT B450M-S2H/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include;C:/Users/GBT B450M-S2H/AppData/Local/Programs/CLion/bin/mingw/include;C:/Users/GBT B450M-S2H/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed;C:/Users/GBT B450M-S2H/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include]
+        collapse include dir [C:/Users/Tobias Heyn/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++] ==> [C:/Users/Tobias Heyn/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++]
+        collapse include dir [C:/Users/Tobias Heyn/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32] ==> [C:/Users/Tobias Heyn/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32]
+        collapse include dir [C:/Users/Tobias Heyn/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward] ==> [C:/Users/Tobias Heyn/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward]
+        collapse include dir [C:/Users/Tobias Heyn/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include] ==> [C:/Users/Tobias Heyn/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include]
+        collapse include dir [C:/Users/Tobias Heyn/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include] ==> [C:/Users/Tobias Heyn/AppData/Local/Programs/CLion/bin/mingw/include]
+        collapse include dir [C:/Users/Tobias Heyn/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed] ==> [C:/Users/Tobias Heyn/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed]
+        collapse include dir [C:/Users/Tobias Heyn/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include] ==> [C:/Users/Tobias Heyn/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include]
+        implicit include dirs: [C:/Users/Tobias Heyn/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++;C:/Users/Tobias Heyn/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32;C:/Users/Tobias Heyn/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward;C:/Users/Tobias Heyn/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include;C:/Users/Tobias Heyn/AppData/Local/Programs/CLion/bin/mingw/include;C:/Users/Tobias Heyn/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed;C:/Users/Tobias Heyn/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include]
       
       
   -
     kind: "message-v1"
     backtrace:
-      - "C:/Users/GBT B450M-S2H/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake:159 (message)"
-      - "C:/Users/GBT B450M-S2H/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "C:/Users/Tobias Heyn/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake:159 (message)"
+      - "C:/Users/Tobias Heyn/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
       - "CMakeLists.txt:421 (project)"
     message: |
       Parsed CXX implicit link information:
         link line regex: [^( *|.*[/\\])(ld\\.exe|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
-        ignore line: [Change Dir: 'C:/Users/GBT B450M-S2H/CLionProjects/VisualComputing_2/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-83yy7z']
+        ignore line: [Change Dir: 'C:/Users/Tobias Heyn/CLionProjects/VisualComputing_2/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-s8b81b']
         ignore line: []
-        ignore line: [Run Build Command(s): "C:/Users/GBT B450M-S2H/AppData/Local/Programs/CLion/bin/cmake/win/x64/bin/cmake.exe" -E env VERBOSE=1 C:/Users/GBTB45~1/AppData/Local/Programs/CLion/bin/mingw/bin/mingw32-make.exe -f Makefile cmTC_1175e/fast]
-        ignore line: [C:/Users/GBTB45~1/AppData/Local/Programs/CLion/bin/mingw/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_1175e.dir\\build.make CMakeFiles/cmTC_1175e.dir/build]
-        ignore line: [mingw32-make[1]: Entering directory 'C:/Users/GBT B450M-S2H/CLionProjects/VisualComputing_2/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-83yy7z']
-        ignore line: [Building CXX object CMakeFiles/cmTC_1175e.dir/CMakeCXXCompilerABI.cpp.obj]
-        ignore line: [C:\\Users\\GBTB45~1\\AppData\\Local\\Programs\\CLion\\bin\\mingw\\bin\\G__~1.EXE   -fdiagnostics-color=always   -v -o CMakeFiles\\cmTC_1175e.dir\\CMakeCXXCompilerABI.cpp.obj -c "C:\\Users\\GBT B450M-S2H\\AppData\\Local\\Programs\\CLion\\bin\\cmake\\win\\x64\\share\\cmake-3.28\\Modules\\CMakeCXXCompilerABI.cpp"]
+        ignore line: [Run Build Command(s): "C:/Users/Tobias Heyn/AppData/Local/Programs/CLion/bin/cmake/win/x64/bin/cmake.exe" -E env VERBOSE=1 C:/Users/TOBIAS~1/AppData/Local/Programs/CLion/bin/mingw/bin/mingw32-make.exe -f Makefile cmTC_0f83d/fast]
+        ignore line: [C:/Users/TOBIAS~1/AppData/Local/Programs/CLion/bin/mingw/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_0f83d.dir\\build.make CMakeFiles/cmTC_0f83d.dir/build]
+        ignore line: [mingw32-make[1]: Entering directory 'C:/Users/Tobias Heyn/CLionProjects/VisualComputing_2/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-s8b81b']
+        ignore line: [Building CXX object CMakeFiles/cmTC_0f83d.dir/CMakeCXXCompilerABI.cpp.obj]
+        ignore line: [C:\\Users\\TOBIAS~1\\AppData\\Local\\Programs\\CLion\\bin\\mingw\\bin\\G__~1.EXE   -fdiagnostics-color=always   -v -o CMakeFiles\\cmTC_0f83d.dir\\CMakeCXXCompilerABI.cpp.obj -c "C:\\Users\\Tobias Heyn\\AppData\\Local\\Programs\\CLion\\bin\\cmake\\win\\x64\\share\\cmake-3.28\\Modules\\CMakeCXXCompilerABI.cpp"]
         ignore line: [Using built-in specs.]
-        ignore line: [COLLECT_GCC=C:\\Users\\GBTB45~1\\AppData\\Local\\Programs\\CLion\\bin\\mingw\\bin\\G__~1.EXE]
+        ignore line: [COLLECT_GCC=C:\\Users\\TOBIAS~1\\AppData\\Local\\Programs\\CLion\\bin\\mingw\\bin\\G__~1.EXE]
         ignore line: [Target: x86_64-w64-mingw32]
         ignore line: [Configured with: ../gcc-13.1.0/configure --host=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --build=x86_64-alpine-linux-musl --prefix=/win --enable-checking=release --enable-fully-dynamic-string --enable-languages=c,c++ --with-arch=nocona --with-tune=generic --enable-libatomic --enable-libgomp --enable-libstdcxx-filesystem-ts --enable-libstdcxx-time --enable-seh-exceptions --enable-shared --enable-static --enable-threads=posix --enable-version-specific-runtime-libs --disable-bootstrap --disable-graphite --disable-libada --disable-libstdcxx-pch --disable-libstdcxx-debug --disable-libquadmath --disable-lto --disable-nls --disable-multilib --disable-rpath --disable-symvers --disable-werror --disable-win32-registry --with-gnu-as --with-gnu-ld --with-system-libiconv --with-system-libz --with-gmp=/win/makedepends --with-mpfr=/win/makedepends --with-mpc=/win/makedepends]
         ignore line: [Thread model: posix]
         ignore line: [Supported LTO compression algorithms: zlib]
         ignore line: [gcc version 13.1.0 (GCC) ]
-        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles\\cmTC_1175e.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_1175e.dir\\']
-        ignore line: [ C:/Users/GBT B450M-S2H/AppData/Local/Programs/CLion/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/cc1plus.exe -quiet -v -iprefix C:/Users/GBT B450M-S2H/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/ -D_REENTRANT C:\\Users\\GBT B450M-S2H\\AppData\\Local\\Programs\\CLion\\bin\\cmake\\win\\x64\\share\\cmake-3.28\\Modules\\CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles\\cmTC_1175e.dir\\ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=nocona -version -fdiagnostics-color=always -o C:\\Users\\GBTB45~1\\AppData\\Local\\Temp\\ccJkTxmT.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles\\cmTC_0f83d.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_0f83d.dir\\']
+        ignore line: [ C:/Users/Tobias Heyn/AppData/Local/Programs/CLion/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/cc1plus.exe -quiet -v -iprefix C:/Users/Tobias Heyn/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/ -D_REENTRANT C:\\Users\\Tobias Heyn\\AppData\\Local\\Programs\\CLion\\bin\\cmake\\win\\x64\\share\\cmake-3.28\\Modules\\CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles\\cmTC_0f83d.dir\\ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=nocona -version -fdiagnostics-color=always -o C:\\Users\\TOBIAS~1\\AppData\\Local\\Temp\\ccCJRTUM.s]
         ignore line: [GNU C++17 (GCC) version 13.1.0 (x86_64-w64-mingw32)]
         ignore line: [	compiled by GNU C version 13.1.0  GMP version 6.2.1  MPFR version 4.2.0-p4  MPC version 1.3.1  isl version none]
         ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
-        ignore line: [ignoring duplicate directory "C:/Users/GBT B450M-S2H/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++"]
-        ignore line: [ignoring duplicate directory "C:/Users/GBT B450M-S2H/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32"]
-        ignore line: [ignoring duplicate directory "C:/Users/GBT B450M-S2H/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward"]
-        ignore line: [ignoring duplicate directory "C:/Users/GBT B450M-S2H/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.1.0/include"]
+        ignore line: [ignoring duplicate directory "C:/Users/Tobias Heyn/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++"]
+        ignore line: [ignoring duplicate directory "C:/Users/Tobias Heyn/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32"]
+        ignore line: [ignoring duplicate directory "C:/Users/Tobias Heyn/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward"]
+        ignore line: [ignoring duplicate directory "C:/Users/Tobias Heyn/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.1.0/include"]
         ignore line: [ignoring nonexistent directory "/win/include"]
-        ignore line: [ignoring duplicate directory "C:/Users/GBT B450M-S2H/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/../../include"]
-        ignore line: [ignoring duplicate directory "C:/Users/GBT B450M-S2H/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"]
-        ignore line: [ignoring duplicate directory "C:/Users/GBT B450M-S2H/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"]
+        ignore line: [ignoring duplicate directory "C:/Users/Tobias Heyn/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/../../include"]
+        ignore line: [ignoring duplicate directory "C:/Users/Tobias Heyn/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"]
+        ignore line: [ignoring duplicate directory "C:/Users/Tobias Heyn/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"]
         ignore line: [ignoring nonexistent directory "/mingw/include"]
         ignore line: [#include "..." search starts here:]
         ignore line: [#include <...> search starts here:]
-        ignore line: [ C:/Users/GBT B450M-S2H/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++]
-        ignore line: [ C:/Users/GBT B450M-S2H/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32]
-        ignore line: [ C:/Users/GBT B450M-S2H/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward]
-        ignore line: [ C:/Users/GBT B450M-S2H/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include]
-        ignore line: [ C:/Users/GBT B450M-S2H/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include]
-        ignore line: [ C:/Users/GBT B450M-S2H/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed]
-        ignore line: [ C:/Users/GBT B450M-S2H/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include]
+        ignore line: [ C:/Users/Tobias Heyn/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++]
+        ignore line: [ C:/Users/Tobias Heyn/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32]
+        ignore line: [ C:/Users/Tobias Heyn/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward]
+        ignore line: [ C:/Users/Tobias Heyn/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include]
+        ignore line: [ C:/Users/Tobias Heyn/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include]
+        ignore line: [ C:/Users/Tobias Heyn/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed]
+        ignore line: [ C:/Users/Tobias Heyn/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include]
         ignore line: [End of search list.]
         ignore line: [Compiler executable checksum: e75de627edc3c57e31324b930b15b056]
-        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles\\cmTC_1175e.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_1175e.dir\\']
-        ignore line: [ as -v -o CMakeFiles\\cmTC_1175e.dir\\CMakeCXXCompilerABI.cpp.obj C:\\Users\\GBTB45~1\\AppData\\Local\\Temp\\ccJkTxmT.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles\\cmTC_0f83d.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_0f83d.dir\\']
+        ignore line: [ as -v -o CMakeFiles\\cmTC_0f83d.dir\\CMakeCXXCompilerABI.cpp.obj C:\\Users\\TOBIAS~1\\AppData\\Local\\Temp\\ccCJRTUM.s]
         ignore line: [GNU assembler version 2.40 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.40]
-        ignore line: [COMPILER_PATH=C:/Users/GBT B450M-S2H/AppData/Local/Programs/CLion/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/]
-        ignore line: [C:/Users/GBT B450M-S2H/AppData/Local/Programs/CLion/bin/mingw/bin/../libexec/gcc/]
-        ignore line: [LIBRARY_PATH=C:/Users/GBT B450M-S2H/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/]
-        ignore line: [C:/Users/GBT B450M-S2H/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/]
-        ignore line: [C:/Users/GBT B450M-S2H/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/]
-        ignore line: [C:/Users/GBT B450M-S2H/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib/]
-        ignore line: [C:/Users/GBT B450M-S2H/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/]
-        ignore line: [C:/Users/GBT B450M-S2H/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../]
-        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles\\cmTC_1175e.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_1175e.dir\\CMakeCXXCompilerABI.cpp.']
-        ignore line: [Linking CXX executable cmTC_1175e.exe]
-        ignore line: ["C:\\Users\\GBT B450M-S2H\\AppData\\Local\\Programs\\CLion\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_1175e.dir\\link.txt --verbose=1]
-        ignore line: ["C:\\Users\\GBT B450M-S2H\\AppData\\Local\\Programs\\CLion\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_1175e.dir/objects.a]
-        ignore line: [C:\\Users\\GBTB45~1\\AppData\\Local\\Programs\\CLion\\bin\\mingw\\bin\\ar.exe qc CMakeFiles\\cmTC_1175e.dir/objects.a @CMakeFiles\\cmTC_1175e.dir\\objects1.rsp]
-        ignore line: [C:\\Users\\GBTB45~1\\AppData\\Local\\Programs\\CLion\\bin\\mingw\\bin\\G__~1.EXE  -v -Wl --whole-archive CMakeFiles\\cmTC_1175e.dir/objects.a -Wl --no-whole-archive -o cmTC_1175e.exe -Wl --out-implib libcmTC_1175e.dll.a -Wl --major-image-version 0 --minor-image-version 0 ]
+        ignore line: [COMPILER_PATH=C:/Users/Tobias Heyn/AppData/Local/Programs/CLion/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/]
+        ignore line: [C:/Users/Tobias Heyn/AppData/Local/Programs/CLion/bin/mingw/bin/../libexec/gcc/]
+        ignore line: [LIBRARY_PATH=C:/Users/Tobias Heyn/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/]
+        ignore line: [C:/Users/Tobias Heyn/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/]
+        ignore line: [C:/Users/Tobias Heyn/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/]
+        ignore line: [C:/Users/Tobias Heyn/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib/]
+        ignore line: [C:/Users/Tobias Heyn/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/]
+        ignore line: [C:/Users/Tobias Heyn/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../]
+        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles\\cmTC_0f83d.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_0f83d.dir\\CMakeCXXCompilerABI.cpp.']
+        ignore line: [Linking CXX executable cmTC_0f83d.exe]
+        ignore line: ["C:\\Users\\Tobias Heyn\\AppData\\Local\\Programs\\CLion\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_0f83d.dir\\link.txt --verbose=1]
+        ignore line: ["C:\\Users\\Tobias Heyn\\AppData\\Local\\Programs\\CLion\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_0f83d.dir/objects.a]
+        ignore line: [C:\\Users\\TOBIAS~1\\AppData\\Local\\Programs\\CLion\\bin\\mingw\\bin\\ar.exe qc CMakeFiles\\cmTC_0f83d.dir/objects.a @CMakeFiles\\cmTC_0f83d.dir\\objects1.rsp]
+        ignore line: [C:\\Users\\TOBIAS~1\\AppData\\Local\\Programs\\CLion\\bin\\mingw\\bin\\G__~1.EXE  -v -Wl --whole-archive CMakeFiles\\cmTC_0f83d.dir/objects.a -Wl --no-whole-archive -o cmTC_0f83d.exe -Wl --out-implib libcmTC_0f83d.dll.a -Wl --major-image-version 0 --minor-image-version 0 ]
         ignore line: [Using built-in specs.]
-        ignore line: [COLLECT_GCC=C:\\Users\\GBTB45~1\\AppData\\Local\\Programs\\CLion\\bin\\mingw\\bin\\G__~1.EXE]
-        ignore line: [COLLECT_LTO_WRAPPER=C:/Users/GBT\\ B450M-S2H/AppData/Local/Programs/CLion/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/lto-wrapper.exe]
+        ignore line: [COLLECT_GCC=C:\\Users\\TOBIAS~1\\AppData\\Local\\Programs\\CLion\\bin\\mingw\\bin\\G__~1.EXE]
+        ignore line: [COLLECT_LTO_WRAPPER=C:/Users/Tobias\\ Heyn/AppData/Local/Programs/CLion/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/lto-wrapper.exe]
         ignore line: [Target: x86_64-w64-mingw32]
         ignore line: [Configured with: ../gcc-13.1.0/configure --host=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --build=x86_64-alpine-linux-musl --prefix=/win --enable-checking=release --enable-fully-dynamic-string --enable-languages=c,c++ --with-arch=nocona --with-tune=generic --enable-libatomic --enable-libgomp --enable-libstdcxx-filesystem-ts --enable-libstdcxx-time --enable-seh-exceptions --enable-shared --enable-static --enable-threads=posix --enable-version-specific-runtime-libs --disable-bootstrap --disable-graphite --disable-libada --disable-libstdcxx-pch --disable-libstdcxx-debug --disable-libquadmath --disable-lto --disable-nls --disable-multilib --disable-rpath --disable-symvers --disable-werror --disable-win32-registry --with-gnu-as --with-gnu-ld --with-system-libiconv --with-system-libz --with-gmp=/win/makedepends --with-mpfr=/win/makedepends --with-mpc=/win/makedepends]
         ignore line: [Thread model: posix]
         ignore line: [Supported LTO compression algorithms: zlib]
         ignore line: [gcc version 13.1.0 (GCC) ]
-        ignore line: [COMPILER_PATH=C:/Users/GBT B450M-S2H/AppData/Local/Programs/CLion/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/]
-        ignore line: [C:/Users/GBT B450M-S2H/AppData/Local/Programs/CLion/bin/mingw/bin/../libexec/gcc/]
-        ignore line: [LIBRARY_PATH=C:/Users/GBT B450M-S2H/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/]
-        ignore line: [C:/Users/GBT B450M-S2H/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/]
-        ignore line: [C:/Users/GBT B450M-S2H/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/]
-        ignore line: [C:/Users/GBT B450M-S2H/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib/]
-        ignore line: [C:/Users/GBT B450M-S2H/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/]
-        ignore line: [C:/Users/GBT B450M-S2H/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_1175e.exe' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'cmTC_1175e.']
-        ignore line: [ C:/Users/GBT B450M-S2H/AppData/Local/Programs/CLion/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/collect2.exe -m i386pep -Bdynamic -o cmTC_1175e.exe C:/Users/GBT B450M-S2H/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/Users/GBT B450M-S2H/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtbegin.o -LC:/Users/GBT B450M-S2H/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0 -LC:/Users/GBT B450M-S2H/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc -LC:/Users/GBT B450M-S2H/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/Users/GBT B450M-S2H/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib -LC:/Users/GBT B450M-S2H/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib -LC:/Users/GBT B450M-S2H/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../.. --whole-archive CMakeFiles\\cmTC_1175e.dir/objects.a --no-whole-archive --out-implib libcmTC_1175e.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 C:/Users/GBT B450M-S2H/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/default-manifest.o C:/Users/GBT B450M-S2H/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtend.o]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_1175e.exe' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'cmTC_1175e.']
-        ignore line: [mingw32-make[1]: Leaving directory 'C:/Users/GBT B450M-S2H/CLionProjects/VisualComputing_2/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-83yy7z']
+        ignore line: [COMPILER_PATH=C:/Users/Tobias Heyn/AppData/Local/Programs/CLion/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/]
+        ignore line: [C:/Users/Tobias Heyn/AppData/Local/Programs/CLion/bin/mingw/bin/../libexec/gcc/]
+        ignore line: [LIBRARY_PATH=C:/Users/Tobias Heyn/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/]
+        ignore line: [C:/Users/Tobias Heyn/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/]
+        ignore line: [C:/Users/Tobias Heyn/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/]
+        ignore line: [C:/Users/Tobias Heyn/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib/]
+        ignore line: [C:/Users/Tobias Heyn/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/]
+        ignore line: [C:/Users/Tobias Heyn/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_0f83d.exe' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'cmTC_0f83d.']
+        ignore line: [ C:/Users/Tobias Heyn/AppData/Local/Programs/CLion/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/collect2.exe -m i386pep -Bdynamic -o cmTC_0f83d.exe C:/Users/Tobias Heyn/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/Users/Tobias Heyn/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtbegin.o -LC:/Users/Tobias Heyn/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0 -LC:/Users/Tobias Heyn/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc -LC:/Users/Tobias Heyn/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/Users/Tobias Heyn/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib -LC:/Users/Tobias Heyn/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib -LC:/Users/Tobias Heyn/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../.. --whole-archive CMakeFiles\\cmTC_0f83d.dir/objects.a --no-whole-archive --out-implib libcmTC_0f83d.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 C:/Users/Tobias Heyn/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/default-manifest.o C:/Users/Tobias Heyn/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtend.o]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_0f83d.exe' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'cmTC_0f83d.']
+        ignore line: [mingw32-make[1]: Leaving directory 'C:/Users/Tobias Heyn/CLionProjects/VisualComputing_2/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-s8b81b']
         ignore line: []
         ignore line: []
         implicit libs: []
@@ -445,202 +445,202 @@ events:
   -
     kind: "try_compile-v1"
     backtrace:
-      - "C:/Users/GBT B450M-S2H/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
-      - "C:/Users/GBT B450M-S2H/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
-      - "C:/Users/GBT B450M-S2H/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/FindThreads.cmake:97 (CHECK_C_SOURCE_COMPILES)"
-      - "C:/Users/GBT B450M-S2H/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/FindThreads.cmake:163 (_threads_check_libc)"
+      - "C:/Users/Tobias Heyn/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Users/Tobias Heyn/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "C:/Users/Tobias Heyn/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/FindThreads.cmake:97 (CHECK_C_SOURCE_COMPILES)"
+      - "C:/Users/Tobias Heyn/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/FindThreads.cmake:163 (_threads_check_libc)"
       - "libs/glfw-3.2.1/CMakeLists.txt:67 (find_package)"
     checks:
       - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
     directories:
-      source: "C:/Users/GBT B450M-S2H/CLionProjects/VisualComputing_2/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-chv3a4"
-      binary: "C:/Users/GBT B450M-S2H/CLionProjects/VisualComputing_2/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-chv3a4"
+      source: "C:/Users/Tobias Heyn/CLionProjects/VisualComputing_2/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-u39eng"
+      binary: "C:/Users/Tobias Heyn/CLionProjects/VisualComputing_2/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-u39eng"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
-      CMAKE_MODULE_PATH: "C:/Users/GBT B450M-S2H/CLionProjects/VisualComputing_2/libs/glfw-3.2.1/CMake/modules"
+      CMAKE_MODULE_PATH: "C:/Users/Tobias Heyn/CLionProjects/VisualComputing_2/libs/glfw-3.2.1/CMake/modules"
     buildResult:
       variable: "CMAKE_HAVE_LIBC_PTHREAD"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/GBT B450M-S2H/CLionProjects/VisualComputing_2/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-chv3a4'
+        Change Dir: 'C:/Users/Tobias Heyn/CLionProjects/VisualComputing_2/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-u39eng'
         
-        Run Build Command(s): "C:/Users/GBT B450M-S2H/AppData/Local/Programs/CLion/bin/cmake/win/x64/bin/cmake.exe" -E env VERBOSE=1 C:/Users/GBTB45~1/AppData/Local/Programs/CLion/bin/mingw/bin/mingw32-make.exe -f Makefile cmTC_a93aa/fast
-        C:/Users/GBTB45~1/AppData/Local/Programs/CLion/bin/mingw/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_a93aa.dir\\build.make CMakeFiles/cmTC_a93aa.dir/build
-        mingw32-make[1]: Entering directory 'C:/Users/GBT B450M-S2H/CLionProjects/VisualComputing_2/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-chv3a4'
-        Building C object CMakeFiles/cmTC_a93aa.dir/src.c.obj
-        C:\\Users\\GBTB45~1\\AppData\\Local\\Programs\\CLion\\bin\\mingw\\bin\\gcc.exe -DCMAKE_HAVE_LIBC_PTHREAD  -fdiagnostics-color=always -o CMakeFiles\\cmTC_a93aa.dir\\src.c.obj -c "C:\\Users\\GBT B450M-S2H\\CLionProjects\\VisualComputing_2\\cmake-build-debug\\CMakeFiles\\CMakeScratch\\TryCompile-chv3a4\\src.c"
-        Linking C executable cmTC_a93aa.exe
-        "C:\\Users\\GBT B450M-S2H\\AppData\\Local\\Programs\\CLion\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_a93aa.dir\\link.txt --verbose=1
-        "C:\\Users\\GBT B450M-S2H\\AppData\\Local\\Programs\\CLion\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_a93aa.dir/objects.a
-        C:\\Users\\GBTB45~1\\AppData\\Local\\Programs\\CLion\\bin\\mingw\\bin\\ar.exe qc CMakeFiles\\cmTC_a93aa.dir/objects.a @CMakeFiles\\cmTC_a93aa.dir\\objects1.rsp
-        C:\\Users\\GBTB45~1\\AppData\\Local\\Programs\\CLion\\bin\\mingw\\bin\\gcc.exe -Wl,--whole-archive CMakeFiles\\cmTC_a93aa.dir/objects.a -Wl,--no-whole-archive -o cmTC_a93aa.exe -Wl,--out-implib,libcmTC_a93aa.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\\cmTC_a93aa.dir\\linkLibs.rsp
-        mingw32-make[1]: Leaving directory 'C:/Users/GBT B450M-S2H/CLionProjects/VisualComputing_2/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-chv3a4'
+        Run Build Command(s): "C:/Users/Tobias Heyn/AppData/Local/Programs/CLion/bin/cmake/win/x64/bin/cmake.exe" -E env VERBOSE=1 C:/Users/TOBIAS~1/AppData/Local/Programs/CLion/bin/mingw/bin/mingw32-make.exe -f Makefile cmTC_421cc/fast
+        C:/Users/TOBIAS~1/AppData/Local/Programs/CLion/bin/mingw/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_421cc.dir\\build.make CMakeFiles/cmTC_421cc.dir/build
+        mingw32-make[1]: Entering directory 'C:/Users/Tobias Heyn/CLionProjects/VisualComputing_2/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-u39eng'
+        Building C object CMakeFiles/cmTC_421cc.dir/src.c.obj
+        C:\\Users\\TOBIAS~1\\AppData\\Local\\Programs\\CLion\\bin\\mingw\\bin\\gcc.exe -DCMAKE_HAVE_LIBC_PTHREAD  -fdiagnostics-color=always -o CMakeFiles\\cmTC_421cc.dir\\src.c.obj -c "C:\\Users\\Tobias Heyn\\CLionProjects\\VisualComputing_2\\cmake-build-debug\\CMakeFiles\\CMakeScratch\\TryCompile-u39eng\\src.c"
+        Linking C executable cmTC_421cc.exe
+        "C:\\Users\\Tobias Heyn\\AppData\\Local\\Programs\\CLion\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_421cc.dir\\link.txt --verbose=1
+        "C:\\Users\\Tobias Heyn\\AppData\\Local\\Programs\\CLion\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_421cc.dir/objects.a
+        C:\\Users\\TOBIAS~1\\AppData\\Local\\Programs\\CLion\\bin\\mingw\\bin\\ar.exe qc CMakeFiles\\cmTC_421cc.dir/objects.a @CMakeFiles\\cmTC_421cc.dir\\objects1.rsp
+        C:\\Users\\TOBIAS~1\\AppData\\Local\\Programs\\CLion\\bin\\mingw\\bin\\gcc.exe -Wl,--whole-archive CMakeFiles\\cmTC_421cc.dir/objects.a -Wl,--no-whole-archive -o cmTC_421cc.exe -Wl,--out-implib,libcmTC_421cc.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\\cmTC_421cc.dir\\linkLibs.rsp
+        mingw32-make[1]: Leaving directory 'C:/Users/Tobias Heyn/CLionProjects/VisualComputing_2/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-u39eng'
         
       exitCode: 0
   -
     kind: "try_compile-v1"
     backtrace:
-      - "C:/Users/GBT B450M-S2H/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "C:/Users/Tobias Heyn/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/CheckIncludeFile.cmake:90 (try_compile)"
       - "libs/glfw-3.2.1/CMakeLists.txt:101 (check_include_file)"
     checks:
       - "Looking for dinput.h"
     directories:
-      source: "C:/Users/GBT B450M-S2H/CLionProjects/VisualComputing_2/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-5bx4kz"
-      binary: "C:/Users/GBT B450M-S2H/CLionProjects/VisualComputing_2/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-5bx4kz"
+      source: "C:/Users/Tobias Heyn/CLionProjects/VisualComputing_2/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-rbf8m4"
+      binary: "C:/Users/Tobias Heyn/CLionProjects/VisualComputing_2/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-rbf8m4"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
-      CMAKE_MODULE_PATH: "C:/Users/GBT B450M-S2H/CLionProjects/VisualComputing_2/libs/glfw-3.2.1/CMake/modules"
+      CMAKE_MODULE_PATH: "C:/Users/Tobias Heyn/CLionProjects/VisualComputing_2/libs/glfw-3.2.1/CMake/modules"
     buildResult:
       variable: "DINPUT_H_FOUND"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/GBT B450M-S2H/CLionProjects/VisualComputing_2/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-5bx4kz'
+        Change Dir: 'C:/Users/Tobias Heyn/CLionProjects/VisualComputing_2/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-rbf8m4'
         
-        Run Build Command(s): "C:/Users/GBT B450M-S2H/AppData/Local/Programs/CLion/bin/cmake/win/x64/bin/cmake.exe" -E env VERBOSE=1 C:/Users/GBTB45~1/AppData/Local/Programs/CLion/bin/mingw/bin/mingw32-make.exe -f Makefile cmTC_a0fd9/fast
-        C:/Users/GBTB45~1/AppData/Local/Programs/CLion/bin/mingw/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_a0fd9.dir\\build.make CMakeFiles/cmTC_a0fd9.dir/build
-        mingw32-make[1]: Entering directory 'C:/Users/GBT B450M-S2H/CLionProjects/VisualComputing_2/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-5bx4kz'
-        Building C object CMakeFiles/cmTC_a0fd9.dir/CheckIncludeFile.c.obj
-        C:\\Users\\GBTB45~1\\AppData\\Local\\Programs\\CLion\\bin\\mingw\\bin\\gcc.exe   -fdiagnostics-color=always -o CMakeFiles\\cmTC_a0fd9.dir\\CheckIncludeFile.c.obj -c "C:\\Users\\GBT B450M-S2H\\CLionProjects\\VisualComputing_2\\cmake-build-debug\\CMakeFiles\\CMakeScratch\\TryCompile-5bx4kz\\CheckIncludeFile.c"
-        Linking C executable cmTC_a0fd9.exe
-        "C:\\Users\\GBT B450M-S2H\\AppData\\Local\\Programs\\CLion\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_a0fd9.dir\\link.txt --verbose=1
-        "C:\\Users\\GBT B450M-S2H\\AppData\\Local\\Programs\\CLion\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_a0fd9.dir/objects.a
-        C:\\Users\\GBTB45~1\\AppData\\Local\\Programs\\CLion\\bin\\mingw\\bin\\ar.exe qc CMakeFiles\\cmTC_a0fd9.dir/objects.a @CMakeFiles\\cmTC_a0fd9.dir\\objects1.rsp
-        C:\\Users\\GBTB45~1\\AppData\\Local\\Programs\\CLion\\bin\\mingw\\bin\\gcc.exe -Wl,--whole-archive CMakeFiles\\cmTC_a0fd9.dir/objects.a -Wl,--no-whole-archive -o cmTC_a0fd9.exe -Wl,--out-implib,libcmTC_a0fd9.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\\cmTC_a0fd9.dir\\linkLibs.rsp
-        mingw32-make[1]: Leaving directory 'C:/Users/GBT B450M-S2H/CLionProjects/VisualComputing_2/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-5bx4kz'
+        Run Build Command(s): "C:/Users/Tobias Heyn/AppData/Local/Programs/CLion/bin/cmake/win/x64/bin/cmake.exe" -E env VERBOSE=1 C:/Users/TOBIAS~1/AppData/Local/Programs/CLion/bin/mingw/bin/mingw32-make.exe -f Makefile cmTC_378ed/fast
+        C:/Users/TOBIAS~1/AppData/Local/Programs/CLion/bin/mingw/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_378ed.dir\\build.make CMakeFiles/cmTC_378ed.dir/build
+        mingw32-make[1]: Entering directory 'C:/Users/Tobias Heyn/CLionProjects/VisualComputing_2/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-rbf8m4'
+        Building C object CMakeFiles/cmTC_378ed.dir/CheckIncludeFile.c.obj
+        C:\\Users\\TOBIAS~1\\AppData\\Local\\Programs\\CLion\\bin\\mingw\\bin\\gcc.exe   -fdiagnostics-color=always -o CMakeFiles\\cmTC_378ed.dir\\CheckIncludeFile.c.obj -c "C:\\Users\\Tobias Heyn\\CLionProjects\\VisualComputing_2\\cmake-build-debug\\CMakeFiles\\CMakeScratch\\TryCompile-rbf8m4\\CheckIncludeFile.c"
+        Linking C executable cmTC_378ed.exe
+        "C:\\Users\\Tobias Heyn\\AppData\\Local\\Programs\\CLion\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_378ed.dir\\link.txt --verbose=1
+        "C:\\Users\\Tobias Heyn\\AppData\\Local\\Programs\\CLion\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_378ed.dir/objects.a
+        C:\\Users\\TOBIAS~1\\AppData\\Local\\Programs\\CLion\\bin\\mingw\\bin\\ar.exe qc CMakeFiles\\cmTC_378ed.dir/objects.a @CMakeFiles\\cmTC_378ed.dir\\objects1.rsp
+        C:\\Users\\TOBIAS~1\\AppData\\Local\\Programs\\CLion\\bin\\mingw\\bin\\gcc.exe -Wl,--whole-archive CMakeFiles\\cmTC_378ed.dir/objects.a -Wl,--no-whole-archive -o cmTC_378ed.exe -Wl,--out-implib,libcmTC_378ed.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\\cmTC_378ed.dir\\linkLibs.rsp
+        mingw32-make[1]: Leaving directory 'C:/Users/Tobias Heyn/CLionProjects/VisualComputing_2/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-rbf8m4'
         
       exitCode: 0
   -
     kind: "try_compile-v1"
     backtrace:
-      - "C:/Users/GBT B450M-S2H/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "C:/Users/Tobias Heyn/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/CheckIncludeFile.cmake:90 (try_compile)"
       - "libs/glfw-3.2.1/CMakeLists.txt:102 (check_include_file)"
     checks:
       - "Looking for xinput.h"
     directories:
-      source: "C:/Users/GBT B450M-S2H/CLionProjects/VisualComputing_2/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-ir8u9o"
-      binary: "C:/Users/GBT B450M-S2H/CLionProjects/VisualComputing_2/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-ir8u9o"
+      source: "C:/Users/Tobias Heyn/CLionProjects/VisualComputing_2/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-glevvo"
+      binary: "C:/Users/Tobias Heyn/CLionProjects/VisualComputing_2/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-glevvo"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
-      CMAKE_MODULE_PATH: "C:/Users/GBT B450M-S2H/CLionProjects/VisualComputing_2/libs/glfw-3.2.1/CMake/modules"
+      CMAKE_MODULE_PATH: "C:/Users/Tobias Heyn/CLionProjects/VisualComputing_2/libs/glfw-3.2.1/CMake/modules"
     buildResult:
       variable: "XINPUT_H_FOUND"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/GBT B450M-S2H/CLionProjects/VisualComputing_2/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-ir8u9o'
+        Change Dir: 'C:/Users/Tobias Heyn/CLionProjects/VisualComputing_2/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-glevvo'
         
-        Run Build Command(s): "C:/Users/GBT B450M-S2H/AppData/Local/Programs/CLion/bin/cmake/win/x64/bin/cmake.exe" -E env VERBOSE=1 C:/Users/GBTB45~1/AppData/Local/Programs/CLion/bin/mingw/bin/mingw32-make.exe -f Makefile cmTC_bb844/fast
-        C:/Users/GBTB45~1/AppData/Local/Programs/CLion/bin/mingw/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_bb844.dir\\build.make CMakeFiles/cmTC_bb844.dir/build
-        mingw32-make[1]: Entering directory 'C:/Users/GBT B450M-S2H/CLionProjects/VisualComputing_2/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-ir8u9o'
-        Building C object CMakeFiles/cmTC_bb844.dir/CheckIncludeFile.c.obj
-        C:\\Users\\GBTB45~1\\AppData\\Local\\Programs\\CLion\\bin\\mingw\\bin\\gcc.exe   -fdiagnostics-color=always -o CMakeFiles\\cmTC_bb844.dir\\CheckIncludeFile.c.obj -c "C:\\Users\\GBT B450M-S2H\\CLionProjects\\VisualComputing_2\\cmake-build-debug\\CMakeFiles\\CMakeScratch\\TryCompile-ir8u9o\\CheckIncludeFile.c"
-        Linking C executable cmTC_bb844.exe
-        "C:\\Users\\GBT B450M-S2H\\AppData\\Local\\Programs\\CLion\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_bb844.dir\\link.txt --verbose=1
-        "C:\\Users\\GBT B450M-S2H\\AppData\\Local\\Programs\\CLion\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_bb844.dir/objects.a
-        C:\\Users\\GBTB45~1\\AppData\\Local\\Programs\\CLion\\bin\\mingw\\bin\\ar.exe qc CMakeFiles\\cmTC_bb844.dir/objects.a @CMakeFiles\\cmTC_bb844.dir\\objects1.rsp
-        C:\\Users\\GBTB45~1\\AppData\\Local\\Programs\\CLion\\bin\\mingw\\bin\\gcc.exe -Wl,--whole-archive CMakeFiles\\cmTC_bb844.dir/objects.a -Wl,--no-whole-archive -o cmTC_bb844.exe -Wl,--out-implib,libcmTC_bb844.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\\cmTC_bb844.dir\\linkLibs.rsp
-        mingw32-make[1]: Leaving directory 'C:/Users/GBT B450M-S2H/CLionProjects/VisualComputing_2/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-ir8u9o'
+        Run Build Command(s): "C:/Users/Tobias Heyn/AppData/Local/Programs/CLion/bin/cmake/win/x64/bin/cmake.exe" -E env VERBOSE=1 C:/Users/TOBIAS~1/AppData/Local/Programs/CLion/bin/mingw/bin/mingw32-make.exe -f Makefile cmTC_cc85a/fast
+        C:/Users/TOBIAS~1/AppData/Local/Programs/CLion/bin/mingw/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_cc85a.dir\\build.make CMakeFiles/cmTC_cc85a.dir/build
+        mingw32-make[1]: Entering directory 'C:/Users/Tobias Heyn/CLionProjects/VisualComputing_2/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-glevvo'
+        Building C object CMakeFiles/cmTC_cc85a.dir/CheckIncludeFile.c.obj
+        C:\\Users\\TOBIAS~1\\AppData\\Local\\Programs\\CLion\\bin\\mingw\\bin\\gcc.exe   -fdiagnostics-color=always -o CMakeFiles\\cmTC_cc85a.dir\\CheckIncludeFile.c.obj -c "C:\\Users\\Tobias Heyn\\CLionProjects\\VisualComputing_2\\cmake-build-debug\\CMakeFiles\\CMakeScratch\\TryCompile-glevvo\\CheckIncludeFile.c"
+        Linking C executable cmTC_cc85a.exe
+        "C:\\Users\\Tobias Heyn\\AppData\\Local\\Programs\\CLion\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_cc85a.dir\\link.txt --verbose=1
+        "C:\\Users\\Tobias Heyn\\AppData\\Local\\Programs\\CLion\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_cc85a.dir/objects.a
+        C:\\Users\\TOBIAS~1\\AppData\\Local\\Programs\\CLion\\bin\\mingw\\bin\\ar.exe qc CMakeFiles\\cmTC_cc85a.dir/objects.a @CMakeFiles\\cmTC_cc85a.dir\\objects1.rsp
+        C:\\Users\\TOBIAS~1\\AppData\\Local\\Programs\\CLion\\bin\\mingw\\bin\\gcc.exe -Wl,--whole-archive CMakeFiles\\cmTC_cc85a.dir/objects.a -Wl,--no-whole-archive -o cmTC_cc85a.exe -Wl,--out-implib,libcmTC_cc85a.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\\cmTC_cc85a.dir\\linkLibs.rsp
+        mingw32-make[1]: Leaving directory 'C:/Users/Tobias Heyn/CLionProjects/VisualComputing_2/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-glevvo'
         
       exitCode: 0
   -
     kind: "try_compile-v1"
     backtrace:
-      - "C:/Users/GBT B450M-S2H/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
-      - "C:/Users/GBT B450M-S2H/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
-      - "C:/Users/GBT B450M-S2H/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/CheckCCompilerFlag.cmake:51 (cmake_check_compiler_flag)"
+      - "C:/Users/Tobias Heyn/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Users/Tobias Heyn/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Users/Tobias Heyn/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/CheckCCompilerFlag.cmake:51 (cmake_check_compiler_flag)"
       - "libs/glfw-3.2.1/CMakeLists.txt:112 (check_c_compiler_flag)"
     checks:
       - "Performing Test _GLFW_HAS_DEP"
     directories:
-      source: "C:/Users/GBT B450M-S2H/CLionProjects/VisualComputing_2/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-867tlq"
-      binary: "C:/Users/GBT B450M-S2H/CLionProjects/VisualComputing_2/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-867tlq"
+      source: "C:/Users/Tobias Heyn/CLionProjects/VisualComputing_2/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-58ic56"
+      binary: "C:/Users/Tobias Heyn/CLionProjects/VisualComputing_2/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-58ic56"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
-      CMAKE_MODULE_PATH: "C:/Users/GBT B450M-S2H/CLionProjects/VisualComputing_2/libs/glfw-3.2.1/CMake/modules"
+      CMAKE_MODULE_PATH: "C:/Users/Tobias Heyn/CLionProjects/VisualComputing_2/libs/glfw-3.2.1/CMake/modules"
     buildResult:
       variable: "_GLFW_HAS_DEP"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/GBT B450M-S2H/CLionProjects/VisualComputing_2/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-867tlq'
+        Change Dir: 'C:/Users/Tobias Heyn/CLionProjects/VisualComputing_2/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-58ic56'
         
-        Run Build Command(s): "C:/Users/GBT B450M-S2H/AppData/Local/Programs/CLion/bin/cmake/win/x64/bin/cmake.exe" -E env VERBOSE=1 C:/Users/GBTB45~1/AppData/Local/Programs/CLion/bin/mingw/bin/mingw32-make.exe -f Makefile cmTC_88830/fast
-        C:/Users/GBTB45~1/AppData/Local/Programs/CLion/bin/mingw/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_88830.dir\\build.make CMakeFiles/cmTC_88830.dir/build
-        mingw32-make[1]: Entering directory 'C:/Users/GBT B450M-S2H/CLionProjects/VisualComputing_2/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-867tlq'
-        Building C object CMakeFiles/cmTC_88830.dir/src.c.obj
-        C:\\Users\\GBTB45~1\\AppData\\Local\\Programs\\CLion\\bin\\mingw\\bin\\gcc.exe -D_GLFW_HAS_DEP  -Wl,--nxcompat -fdiagnostics-color=always -o CMakeFiles\\cmTC_88830.dir\\src.c.obj -c "C:\\Users\\GBT B450M-S2H\\CLionProjects\\VisualComputing_2\\cmake-build-debug\\CMakeFiles\\CMakeScratch\\TryCompile-867tlq\\src.c"
-        Linking C executable cmTC_88830.exe
-        "C:\\Users\\GBT B450M-S2H\\AppData\\Local\\Programs\\CLion\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_88830.dir\\link.txt --verbose=1
-        "C:\\Users\\GBT B450M-S2H\\AppData\\Local\\Programs\\CLion\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_88830.dir/objects.a
-        C:\\Users\\GBTB45~1\\AppData\\Local\\Programs\\CLion\\bin\\mingw\\bin\\ar.exe qc CMakeFiles\\cmTC_88830.dir/objects.a @CMakeFiles\\cmTC_88830.dir\\objects1.rsp
-        C:\\Users\\GBTB45~1\\AppData\\Local\\Programs\\CLion\\bin\\mingw\\bin\\gcc.exe  -Wl,--nxcompat -Wl,--whole-archive CMakeFiles\\cmTC_88830.dir/objects.a -Wl,--no-whole-archive -o cmTC_88830.exe -Wl,--out-implib,libcmTC_88830.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\\cmTC_88830.dir\\linkLibs.rsp
-        mingw32-make[1]: Leaving directory 'C:/Users/GBT B450M-S2H/CLionProjects/VisualComputing_2/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-867tlq'
+        Run Build Command(s): "C:/Users/Tobias Heyn/AppData/Local/Programs/CLion/bin/cmake/win/x64/bin/cmake.exe" -E env VERBOSE=1 C:/Users/TOBIAS~1/AppData/Local/Programs/CLion/bin/mingw/bin/mingw32-make.exe -f Makefile cmTC_a06f4/fast
+        C:/Users/TOBIAS~1/AppData/Local/Programs/CLion/bin/mingw/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_a06f4.dir\\build.make CMakeFiles/cmTC_a06f4.dir/build
+        mingw32-make[1]: Entering directory 'C:/Users/Tobias Heyn/CLionProjects/VisualComputing_2/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-58ic56'
+        Building C object CMakeFiles/cmTC_a06f4.dir/src.c.obj
+        C:\\Users\\TOBIAS~1\\AppData\\Local\\Programs\\CLion\\bin\\mingw\\bin\\gcc.exe -D_GLFW_HAS_DEP  -Wl,--nxcompat -fdiagnostics-color=always -o CMakeFiles\\cmTC_a06f4.dir\\src.c.obj -c "C:\\Users\\Tobias Heyn\\CLionProjects\\VisualComputing_2\\cmake-build-debug\\CMakeFiles\\CMakeScratch\\TryCompile-58ic56\\src.c"
+        Linking C executable cmTC_a06f4.exe
+        "C:\\Users\\Tobias Heyn\\AppData\\Local\\Programs\\CLion\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_a06f4.dir\\link.txt --verbose=1
+        "C:\\Users\\Tobias Heyn\\AppData\\Local\\Programs\\CLion\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_a06f4.dir/objects.a
+        C:\\Users\\TOBIAS~1\\AppData\\Local\\Programs\\CLion\\bin\\mingw\\bin\\ar.exe qc CMakeFiles\\cmTC_a06f4.dir/objects.a @CMakeFiles\\cmTC_a06f4.dir\\objects1.rsp
+        C:\\Users\\TOBIAS~1\\AppData\\Local\\Programs\\CLion\\bin\\mingw\\bin\\gcc.exe  -Wl,--nxcompat -Wl,--whole-archive CMakeFiles\\cmTC_a06f4.dir/objects.a -Wl,--no-whole-archive -o cmTC_a06f4.exe -Wl,--out-implib,libcmTC_a06f4.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\\cmTC_a06f4.dir\\linkLibs.rsp
+        mingw32-make[1]: Leaving directory 'C:/Users/Tobias Heyn/CLionProjects/VisualComputing_2/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-58ic56'
         
       exitCode: 0
   -
     kind: "try_compile-v1"
     backtrace:
-      - "C:/Users/GBT B450M-S2H/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
-      - "C:/Users/GBT B450M-S2H/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
-      - "C:/Users/GBT B450M-S2H/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/CheckCCompilerFlag.cmake:51 (cmake_check_compiler_flag)"
+      - "C:/Users/Tobias Heyn/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Users/Tobias Heyn/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Users/Tobias Heyn/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/CheckCCompilerFlag.cmake:51 (cmake_check_compiler_flag)"
       - "libs/glfw-3.2.1/CMakeLists.txt:119 (check_c_compiler_flag)"
     checks:
       - "Performing Test _GLFW_HAS_ASLR"
     directories:
-      source: "C:/Users/GBT B450M-S2H/CLionProjects/VisualComputing_2/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-0p4lat"
-      binary: "C:/Users/GBT B450M-S2H/CLionProjects/VisualComputing_2/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-0p4lat"
+      source: "C:/Users/Tobias Heyn/CLionProjects/VisualComputing_2/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-fcrvb5"
+      binary: "C:/Users/Tobias Heyn/CLionProjects/VisualComputing_2/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-fcrvb5"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
-      CMAKE_MODULE_PATH: "C:/Users/GBT B450M-S2H/CLionProjects/VisualComputing_2/libs/glfw-3.2.1/CMake/modules"
+      CMAKE_MODULE_PATH: "C:/Users/Tobias Heyn/CLionProjects/VisualComputing_2/libs/glfw-3.2.1/CMake/modules"
     buildResult:
       variable: "_GLFW_HAS_ASLR"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/GBT B450M-S2H/CLionProjects/VisualComputing_2/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-0p4lat'
+        Change Dir: 'C:/Users/Tobias Heyn/CLionProjects/VisualComputing_2/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-fcrvb5'
         
-        Run Build Command(s): "C:/Users/GBT B450M-S2H/AppData/Local/Programs/CLion/bin/cmake/win/x64/bin/cmake.exe" -E env VERBOSE=1 C:/Users/GBTB45~1/AppData/Local/Programs/CLion/bin/mingw/bin/mingw32-make.exe -f Makefile cmTC_439a9/fast
-        C:/Users/GBTB45~1/AppData/Local/Programs/CLion/bin/mingw/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_439a9.dir\\build.make CMakeFiles/cmTC_439a9.dir/build
-        mingw32-make[1]: Entering directory 'C:/Users/GBT B450M-S2H/CLionProjects/VisualComputing_2/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-0p4lat'
-        Building C object CMakeFiles/cmTC_439a9.dir/src.c.obj
-        C:\\Users\\GBTB45~1\\AppData\\Local\\Programs\\CLion\\bin\\mingw\\bin\\gcc.exe -D_GLFW_HAS_ASLR  -Wl,--dynamicbase -fdiagnostics-color=always -o CMakeFiles\\cmTC_439a9.dir\\src.c.obj -c "C:\\Users\\GBT B450M-S2H\\CLionProjects\\VisualComputing_2\\cmake-build-debug\\CMakeFiles\\CMakeScratch\\TryCompile-0p4lat\\src.c"
-        Linking C executable cmTC_439a9.exe
-        "C:\\Users\\GBT B450M-S2H\\AppData\\Local\\Programs\\CLion\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_439a9.dir\\link.txt --verbose=1
-        "C:\\Users\\GBT B450M-S2H\\AppData\\Local\\Programs\\CLion\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_439a9.dir/objects.a
-        C:\\Users\\GBTB45~1\\AppData\\Local\\Programs\\CLion\\bin\\mingw\\bin\\ar.exe qc CMakeFiles\\cmTC_439a9.dir/objects.a @CMakeFiles\\cmTC_439a9.dir\\objects1.rsp
-        C:\\Users\\GBTB45~1\\AppData\\Local\\Programs\\CLion\\bin\\mingw\\bin\\gcc.exe  -Wl,--dynamicbase -Wl,--whole-archive CMakeFiles\\cmTC_439a9.dir/objects.a -Wl,--no-whole-archive -o cmTC_439a9.exe -Wl,--out-implib,libcmTC_439a9.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\\cmTC_439a9.dir\\linkLibs.rsp
-        mingw32-make[1]: Leaving directory 'C:/Users/GBT B450M-S2H/CLionProjects/VisualComputing_2/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-0p4lat'
+        Run Build Command(s): "C:/Users/Tobias Heyn/AppData/Local/Programs/CLion/bin/cmake/win/x64/bin/cmake.exe" -E env VERBOSE=1 C:/Users/TOBIAS~1/AppData/Local/Programs/CLion/bin/mingw/bin/mingw32-make.exe -f Makefile cmTC_af315/fast
+        C:/Users/TOBIAS~1/AppData/Local/Programs/CLion/bin/mingw/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_af315.dir\\build.make CMakeFiles/cmTC_af315.dir/build
+        mingw32-make[1]: Entering directory 'C:/Users/Tobias Heyn/CLionProjects/VisualComputing_2/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-fcrvb5'
+        Building C object CMakeFiles/cmTC_af315.dir/src.c.obj
+        C:\\Users\\TOBIAS~1\\AppData\\Local\\Programs\\CLion\\bin\\mingw\\bin\\gcc.exe -D_GLFW_HAS_ASLR  -Wl,--dynamicbase -fdiagnostics-color=always -o CMakeFiles\\cmTC_af315.dir\\src.c.obj -c "C:\\Users\\Tobias Heyn\\CLionProjects\\VisualComputing_2\\cmake-build-debug\\CMakeFiles\\CMakeScratch\\TryCompile-fcrvb5\\src.c"
+        Linking C executable cmTC_af315.exe
+        "C:\\Users\\Tobias Heyn\\AppData\\Local\\Programs\\CLion\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_af315.dir\\link.txt --verbose=1
+        "C:\\Users\\Tobias Heyn\\AppData\\Local\\Programs\\CLion\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_af315.dir/objects.a
+        C:\\Users\\TOBIAS~1\\AppData\\Local\\Programs\\CLion\\bin\\mingw\\bin\\ar.exe qc CMakeFiles\\cmTC_af315.dir/objects.a @CMakeFiles\\cmTC_af315.dir\\objects1.rsp
+        C:\\Users\\TOBIAS~1\\AppData\\Local\\Programs\\CLion\\bin\\mingw\\bin\\gcc.exe  -Wl,--dynamicbase -Wl,--whole-archive CMakeFiles\\cmTC_af315.dir/objects.a -Wl,--no-whole-archive -o cmTC_af315.exe -Wl,--out-implib,libcmTC_af315.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\\cmTC_af315.dir\\linkLibs.rsp
+        mingw32-make[1]: Leaving directory 'C:/Users/Tobias Heyn/CLionProjects/VisualComputing_2/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-fcrvb5'
         
       exitCode: 0
   -
     kind: "try_compile-v1"
     backtrace:
-      - "C:/Users/GBT B450M-S2H/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
-      - "C:/Users/GBT B450M-S2H/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
-      - "C:/Users/GBT B450M-S2H/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/CheckCCompilerFlag.cmake:51 (cmake_check_compiler_flag)"
+      - "C:/Users/Tobias Heyn/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Users/Tobias Heyn/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Users/Tobias Heyn/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/CheckCCompilerFlag.cmake:51 (cmake_check_compiler_flag)"
       - "libs/glfw-3.2.1/CMakeLists.txt:126 (check_c_compiler_flag)"
     checks:
       - "Performing Test _GLFW_HAS_64ASLR"
     directories:
-      source: "C:/Users/GBT B450M-S2H/CLionProjects/VisualComputing_2/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-ij2evz"
-      binary: "C:/Users/GBT B450M-S2H/CLionProjects/VisualComputing_2/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-ij2evz"
+      source: "C:/Users/Tobias Heyn/CLionProjects/VisualComputing_2/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-tg32th"
+      binary: "C:/Users/Tobias Heyn/CLionProjects/VisualComputing_2/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-tg32th"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
-      CMAKE_MODULE_PATH: "C:/Users/GBT B450M-S2H/CLionProjects/VisualComputing_2/libs/glfw-3.2.1/CMake/modules"
+      CMAKE_MODULE_PATH: "C:/Users/Tobias Heyn/CLionProjects/VisualComputing_2/libs/glfw-3.2.1/CMake/modules"
     buildResult:
       variable: "_GLFW_HAS_64ASLR"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/GBT B450M-S2H/CLionProjects/VisualComputing_2/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-ij2evz'
+        Change Dir: 'C:/Users/Tobias Heyn/CLionProjects/VisualComputing_2/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-tg32th'
         
-        Run Build Command(s): "C:/Users/GBT B450M-S2H/AppData/Local/Programs/CLion/bin/cmake/win/x64/bin/cmake.exe" -E env VERBOSE=1 C:/Users/GBTB45~1/AppData/Local/Programs/CLion/bin/mingw/bin/mingw32-make.exe -f Makefile cmTC_ae06c/fast
-        C:/Users/GBTB45~1/AppData/Local/Programs/CLion/bin/mingw/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_ae06c.dir\\build.make CMakeFiles/cmTC_ae06c.dir/build
-        mingw32-make[1]: Entering directory 'C:/Users/GBT B450M-S2H/CLionProjects/VisualComputing_2/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-ij2evz'
-        Building C object CMakeFiles/cmTC_ae06c.dir/src.c.obj
-        C:\\Users\\GBTB45~1\\AppData\\Local\\Programs\\CLion\\bin\\mingw\\bin\\gcc.exe -D_GLFW_HAS_64ASLR  -Wl,--high-entropy-va -fdiagnostics-color=always -o CMakeFiles\\cmTC_ae06c.dir\\src.c.obj -c "C:\\Users\\GBT B450M-S2H\\CLionProjects\\VisualComputing_2\\cmake-build-debug\\CMakeFiles\\CMakeScratch\\TryCompile-ij2evz\\src.c"
-        Linking C executable cmTC_ae06c.exe
-        "C:\\Users\\GBT B450M-S2H\\AppData\\Local\\Programs\\CLion\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_ae06c.dir\\link.txt --verbose=1
-        "C:\\Users\\GBT B450M-S2H\\AppData\\Local\\Programs\\CLion\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_ae06c.dir/objects.a
-        C:\\Users\\GBTB45~1\\AppData\\Local\\Programs\\CLion\\bin\\mingw\\bin\\ar.exe qc CMakeFiles\\cmTC_ae06c.dir/objects.a @CMakeFiles\\cmTC_ae06c.dir\\objects1.rsp
-        C:\\Users\\GBTB45~1\\AppData\\Local\\Programs\\CLion\\bin\\mingw\\bin\\gcc.exe  -Wl,--high-entropy-va -Wl,--whole-archive CMakeFiles\\cmTC_ae06c.dir/objects.a -Wl,--no-whole-archive -o cmTC_ae06c.exe -Wl,--out-implib,libcmTC_ae06c.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\\cmTC_ae06c.dir\\linkLibs.rsp
-        mingw32-make[1]: Leaving directory 'C:/Users/GBT B450M-S2H/CLionProjects/VisualComputing_2/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-ij2evz'
+        Run Build Command(s): "C:/Users/Tobias Heyn/AppData/Local/Programs/CLion/bin/cmake/win/x64/bin/cmake.exe" -E env VERBOSE=1 C:/Users/TOBIAS~1/AppData/Local/Programs/CLion/bin/mingw/bin/mingw32-make.exe -f Makefile cmTC_a182b/fast
+        C:/Users/TOBIAS~1/AppData/Local/Programs/CLion/bin/mingw/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_a182b.dir\\build.make CMakeFiles/cmTC_a182b.dir/build
+        mingw32-make[1]: Entering directory 'C:/Users/Tobias Heyn/CLionProjects/VisualComputing_2/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-tg32th'
+        Building C object CMakeFiles/cmTC_a182b.dir/src.c.obj
+        C:\\Users\\TOBIAS~1\\AppData\\Local\\Programs\\CLion\\bin\\mingw\\bin\\gcc.exe -D_GLFW_HAS_64ASLR  -Wl,--high-entropy-va -fdiagnostics-color=always -o CMakeFiles\\cmTC_a182b.dir\\src.c.obj -c "C:\\Users\\Tobias Heyn\\CLionProjects\\VisualComputing_2\\cmake-build-debug\\CMakeFiles\\CMakeScratch\\TryCompile-tg32th\\src.c"
+        Linking C executable cmTC_a182b.exe
+        "C:\\Users\\Tobias Heyn\\AppData\\Local\\Programs\\CLion\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_a182b.dir\\link.txt --verbose=1
+        "C:\\Users\\Tobias Heyn\\AppData\\Local\\Programs\\CLion\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_a182b.dir/objects.a
+        C:\\Users\\TOBIAS~1\\AppData\\Local\\Programs\\CLion\\bin\\mingw\\bin\\ar.exe qc CMakeFiles\\cmTC_a182b.dir/objects.a @CMakeFiles\\cmTC_a182b.dir\\objects1.rsp
+        C:\\Users\\TOBIAS~1\\AppData\\Local\\Programs\\CLion\\bin\\mingw\\bin\\gcc.exe  -Wl,--high-entropy-va -Wl,--whole-archive CMakeFiles\\cmTC_a182b.dir/objects.a -Wl,--no-whole-archive -o cmTC_a182b.exe -Wl,--out-implib,libcmTC_a182b.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\\cmTC_a182b.dir\\linkLibs.rsp
+        mingw32-make[1]: Leaving directory 'C:/Users/Tobias Heyn/CLionProjects/VisualComputing_2/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-tg32th'
         
       exitCode: 0
 ...

@@ -1,4 +1,4 @@
-set(CMAKE_RC_COMPILER "C:/Users/GBT B450M-S2H/AppData/Local/Programs/CLion/bin/mingw/bin/windres.exe")
+set(CMAKE_RC_COMPILER "C:/Users/Tobias Heyn/AppData/Local/Programs/CLion/bin/mingw/bin/windres.exe")
 set(CMAKE_RC_COMPILER_ARG1 "")
 set(CMAKE_RC_COMPILER_LOADED 1)
 set(CMAKE_RC_SOURCE_FILE_EXTENSIONS rc;RC)

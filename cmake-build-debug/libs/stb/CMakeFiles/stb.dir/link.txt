@@ -1,0 +1,2 @@
+C:\Users\TOBIAS~1\AppData\Local\Programs\CLion\bin\mingw\bin\ar.exe qc libstb.a CMakeFiles/stb.dir/stb_image.c.obj CMakeFiles/stb.dir/stb_image_write.c.obj
+C:\Users\TOBIAS~1\AppData\Local\Programs\CLion\bin\mingw\bin\ranlib.exe libstb.a

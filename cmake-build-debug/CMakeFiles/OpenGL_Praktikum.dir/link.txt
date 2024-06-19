@@ -1,0 +1,3 @@
+"C:\Users\Tobias Heyn\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe" -E rm -f CMakeFiles\OpenGL_Praktikum.dir/objects.a
+C:\Users\TOBIAS~1\AppData\Local\Programs\CLion\bin\mingw\bin\ar.exe qc CMakeFiles\OpenGL_Praktikum.dir/objects.a @CMakeFiles\OpenGL_Praktikum.dir\objects1.rsp
+C:\Users\TOBIAS~1\AppData\Local\Programs\CLion\bin\mingw\bin\G__~1.EXE -g -Wl,--whole-archive CMakeFiles\OpenGL_Praktikum.dir/objects.a -Wl,--no-whole-archive -o OpenGL_Praktikum.exe -Wl,--out-implib,libOpenGL_Praktikum.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\OpenGL_Praktikum.dir\linkLibs.rsp
